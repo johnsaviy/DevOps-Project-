@@ -115,6 +115,27 @@ Once maintenance is over, the index.html is renamed or removed from the document
 To change this behavior, we’ll need to edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
  
  ![img 8](https://user-images.githubusercontent.com/93729559/162006451-81290322-612f-4bb0-a389-d22ce3993c6b.png)
+ 
+ After saving and closing the file, you will need to reload Apache so the changes take effect.
+ 
+Now that we have a custom location to host your website’s files and folders, we’ll create a PHP test script to 
+confirm that Apache is able to handle and process requests for PHP files.
+ 
+We will create a new file named index.php inside the custom web root folder and write a test valid PHP code inside the file.
+ 
+ PHP CODE IN THE FILE.
+ 
+![IMG 8C](https://user-images.githubusercontent.com/93729559/162009876-047eee3f-246b-4072-ae30-d3777fec6aff.png)
+ 
+
+
+We will save and close the file, refresh the page and you will see a page similar to this:
+
+ ![IMG 8D](https://user-images.githubusercontent.com/93729559/162012819-edb36cd6-692c-4220-937a-860e0d075e84.png)
+ 
+ 
+ 
+ 
    
    
  
