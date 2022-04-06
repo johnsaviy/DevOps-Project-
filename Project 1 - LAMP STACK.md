@@ -69,7 +69,7 @@ MEAN (MongoDB, ExpressJS, AngularJS, NodeJS
  
 ![img 7b](https://user-images.githubusercontent.com/93729559/161825736-f4706320-d41e-4030-96b3-4aaa070136d4.png)
     
-  <b> STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE<b>
+  <b> STEP 5 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE<b>
    
 - To test the setup with a PHP script, it’s best to set up a proper Apache Virtual Host to hold your website’s files and folders. Virtual host allows you to have multiple websites located on a single machine.
    
@@ -103,6 +103,16 @@ With this VirtualHost configuration, we’re telling Apache to serve projectlamp
  -  The browser displays the ‘echo’ command I wrote to index.html file, meaning the Apache virtual host is working as expected.
    
    ![img 7g](https://user-images.githubusercontent.com/93729559/161835275-5e8520e1-6039-47fc-be8b-d1a43dc8c21d.png)
+   
+
+<b>STEP 5 — ENABLE PHP ON THE WEBSITE<b>
+ 
+With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. 
+This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. 
+Because this page will take precedence over the index.php page, it will then become the landing page for the application.
+Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.
+ 
+To change this behavior, we’ll need to edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
    
    
  
