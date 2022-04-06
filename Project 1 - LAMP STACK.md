@@ -105,7 +105,7 @@ With this VirtualHost configuration, we’re telling Apache to serve projectlamp
    ![img 7g](https://user-images.githubusercontent.com/93729559/161835275-5e8520e1-6039-47fc-be8b-d1a43dc8c21d.png)
    
 
-<b>STEP 5 — ENABLE PHP ON THE WEBSITE<b>
+<b>STEP 6 — ENABLE PHP ON THE WEBSITE<b>
  
 With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. 
 This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. 
@@ -113,6 +113,8 @@ Because this page will take precedence over the index.php page, it will then bec
 Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.
  
 To change this behavior, we’ll need to edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
+ 
+ ![img 8](https://user-images.githubusercontent.com/93729559/162006451-81290322-612f-4bb0-a389-d22ce3993c6b.png)
    
    
  
