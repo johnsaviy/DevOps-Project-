@@ -83,7 +83,59 @@ Creating the root web directory for the domain as follows:
 
 ![5c](https://user-images.githubusercontent.com/93729559/162035036-edba1910-8df3-4d89-8752-5d1d862ec8fb.png)
 
-   LEMP stack is now fully configured!
+ LEMP stack is now fully configured!
+  
+  
+- Step 6 – Testing PHP with Nginx.
+  
+-Testing to validate that Nginx can correctly hand .php files off to the PHP processor.
+
+ You can do this by creating a test PHP file in the document root.
+  
+ ![6a](https://user-images.githubusercontent.com/93729559/162140721-112cce8d-7510-4203-ba97-2618e091b521.png)
+
+![6](https://user-images.githubusercontent.com/93729559/162140754-2b62e448-f29e-4950-a956-1ba09958d6fe.png)
+  
+You can now access this page in your web browser by visiting the domain name or public IP address you’ve set up in your Nginx configuration file, followed by /info.php:
+
+![6bi](https://user-images.githubusercontent.com/93729559/162140786-bf6a8b9b-6d39-41bf-a01c-7d1ec3eada93.png)
+  
+  
+- Step 7 - Retrieving data from MySQL database with PHP.
+  
+In this step I will create a test database (DB) with simple "To do list" and configure access to it, so the Nginx website would be able to query data from the DB and display it.
+
+At the time of this writing, the native MySQL PHP library mysqlnd doesn’t support caching_sha2_authentication, the default authentication method for MySQL 8. I’ll need to create a new user with the mysql_native_password authentication method in order to be able to connect to the MySQL database from PHP.
+
+I will create a database named example_database and a user named example_user, and grant the new user full privileges on the database I have just created.
+  
+![7](https://user-images.githubusercontent.com/93729559/162143226-3ec46a2e-cc28-4d5b-93f5-2e3f2e70bb16.png)
+  
+-  Testing if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials. 
+  Also confirming that the user have access to the example_database database:
+  
+![7b](https://user-images.githubusercontent.com/93729559/162143247-6a366c1c-4869-4146-baa3-601a5297c1e1.png)
+  
+![7c](https://user-images.githubusercontent.com/93729559/162143309-c7606c67-29b9-48eb-acb8-b5fc96c2b72c.png)
+  
+  
+- Next, we’ll create a test table named todo_list, insert a few rows of content in the test table and confirm that the data was successfully saved to your table.
+  
+![7d](https://user-images.githubusercontent.com/93729559/162147188-f9c9369c-52a1-4dfe-ae1a-6c092c67f6d7.png)
+  
+Next I'll create a PHP script that will connect to MySQL and query for your content. 
+I'll Create a new PHP file in your custom web root directory using nano editor.
+  
+![7e](https://user-images.githubusercontent.com/93729559/162148487-4265acf6-aaf4-4674-b884-89d17d84cce4.png)
+![7f](https://user-images.githubusercontent.com/93729559/162148515-0b1be680-08a1-4e2e-9c7d-6e842d7c3d1e.png)
+  
+-We can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php:
+  
+![7g](https://user-images.githubusercontent.com/93729559/162149173-bddce88e-354d-4468-a396-73dde077f548.png)
+
+That means your PHP environment is ready to connect and interact with your MySQL server.
+
+
   
 
 
