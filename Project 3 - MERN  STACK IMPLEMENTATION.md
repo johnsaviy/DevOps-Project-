@@ -33,6 +33,7 @@ To deploy a simple To-Do application that creates To-Do lists like this:
   
   ![1](https://user-images.githubusercontent.com/93729559/162179011-a8c6c6ff-bb4e-484c-b3ff-050d48522d8f.png)
   
+  
   -Install Node.js on the server.
   
   ![1a](https://user-images.githubusercontent.com/93729559/162179518-e2886315-afc5-4217-8a96-0b36212b0f83.png)
@@ -177,7 +178,13 @@ Since we are done with the functionality we want from our backend and API, it is
   
   
   ![5b](https://user-images.githubusercontent.com/93729559/162428154-7dfe0666-a754-44b1-828c-e06dd434673d.png)
+  
+  - Creating your React Components
+  
+One of the advantages of react is that it makes use of components, which are reusable and also makes code modular. For our Todo app, there will be two stateful components and one stateless component.
 
+  ![5c](https://user-images.githubusercontent.com/93729559/162429233-2a947d1e-5823-4e88-a440-ab8d41b15117.png)
+  
   
 
   
