@@ -169,11 +169,17 @@ Since we are done with the functionality we want from our backend and API, it is
   The whole purpose of adding the proxy configuration in number 3 above is to make it possible to access the application directly from the browser by simply calling the server url like http: //localhost:5000 rather than always including the entire path like http: //localhost:5000/api/todos.
   
   
-  Now I will run the app
+  - Now I will run the app
   
-  In order to be able to access the application from the Internet you have to open TCP port 3000 on EC2 by adding a new Security Group rule.
+   In order to be able to access the application from the Internet I'll have to open TCP port 3000 on EC2 by adding a new Security Group rule.
   
   ![5a](https://user-images.githubusercontent.com/93729559/162425653-eec8a52b-1d29-45cd-8436-d4a45f11a7af.png)
+  
+  
+  ![5b](https://user-images.githubusercontent.com/93729559/162428154-7dfe0666-a754-44b1-828c-e06dd434673d.png)
+
+  
+
   
   
   
