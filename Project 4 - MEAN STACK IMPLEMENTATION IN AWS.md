@@ -48,6 +48,74 @@ In this project I'll be implementing a simple Book Register web form using MEAN 
 ![4](https://user-images.githubusercontent.com/93729559/162450986-e317528a-f878-4ec1-9a58-363b39aa9ca0.png)
   
 ![4a](https://user-images.githubusercontent.com/93729559/162451009-3d3984bb-b41e-497f-b1dc-0f913953e541.png)
+  
+  
+Step 3: Install Express and set up routes to the server.
+  
+Express is a minimal and flexible Node.js web application framework that provides features for web and mobile applications. I will use Express in to pass book information to and from our MongoDB database.
+
+I also will use Mongoose package which provides a straight-forward, schema-based solution to model your application data. 
+I will use Mongoose to establish a schema for the database to store data of our book register.
+  
+
+![5](https://user-images.githubusercontent.com/93729559/162452522-488de2e6-ded2-4e89-b0af-bae109fd5aa2.png)
+  
+- In ‘Books’ folder, I'll create a folder named apps, create a file named routes.js and write the following code into the route.js file as shown below:
+  
+ ![6](https://user-images.githubusercontent.com/93729559/162453665-9aa90e42-f001-4966-b6aa-3355243caa86.png)
+  
+  
+ - In the ‘apps’ folder, I'll create a folder named models, Create a file named book.js with the following code as shown below:
+  
+ ![6a](https://user-images.githubusercontent.com/93729559/162454285-2be321c7-5b85-4a84-a258-8cc9b0cddc66.png)
+  
+  
+ Step 4 – Access the routes with AngularJS.
+
+  AngularJS provides a web framework for creating dynamic views in your web applications. 
+  In this project, I'll use AngularJS to connect our web page with Express and perform actions on our book register.
+  
+ - I'll navigate back to the ‘Books’ directory, create a folder named public and add a file named script.js with the following code as shown below;
+  
+ ![7](https://user-images.githubusercontent.com/93729559/162455793-eaaa252b-c32c-4986-b1f4-54e5a922de13.png)
+
+  
+- In public folder, I'll create a file named index.html with the following code;
+  
+ ![7a](https://user-images.githubusercontent.com/93729559/162456980-226286de-c3a1-48b7-9e74-94626b006335.png)
+
+ 
+ - Now I'll start the server
+  
+ ![8](https://user-images.githubusercontent.com/93729559/162457654-54efc4da-c89d-4b75-958a-a8db127f6908.png)
+  
+  
+ The server is now up and running, we can connect it via port 3300. 
+ I'll need to open TCP port 3300 in the AWS Web Console for the EC2 Instance.
+  
+ ![8a](https://user-images.githubusercontent.com/93729559/162459819-e124c62f-d912-4ec3-902b-95f3ff8c11e0.png)
+  
+
+ - Now you can access our Book Register web application from the Internet with a browser using Public IP address or Public DNS name.
+  
+  
+  ![10](https://user-images.githubusercontent.com/93729559/162463112-7c8550cd-7f0a-41bb-b541-23754aa1fe06.png)
+  
+  Now I have my Web Book Register Application deployed!!
+
+  
+  
+
+  
+
+  
+  
+  
+
+
+
+
+  
 
 
   
