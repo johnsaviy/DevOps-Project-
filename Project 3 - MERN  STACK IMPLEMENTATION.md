@@ -157,7 +157,15 @@ We need a database where we will store our data. For this we will make use of mL
   
  -STEP 5 - Frontend creation.
   
-Since we are done with the functionality we want from our backend and API, it is time to create a user interface for a Web client (browser) to interact with the application via API. To start out with the frontend of the To-do app, I will use the create-react-app command to scaffold our app.
+Since we are done with the functionality we want from our backend and API, it is time to create a user interface for a Web client (browser) to interact with the application via API. To start out with the frontend of the To-do app, I will use the create-react-app command to scaffold our app. 
+  This will create a new folder in the Todo directory called client, where I will add all the react code. 
+  Before testing the react app, there are some dependencies that need to be installed - Install concurrently, Install nodemon.
+  
+  - In the Todo folder I'll open the package.json file and edit as shown below:
+  
+  ![5](https://user-images.githubusercontent.com/93729559/162425629-d6627b85-e03f-423a-9df8-3434c12bdf48.png)
+  
+ 
 
 
   
