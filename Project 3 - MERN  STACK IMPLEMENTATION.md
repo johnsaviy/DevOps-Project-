@@ -181,9 +181,27 @@ Since we are done with the functionality we want from our backend and API, it is
   
   - Creating your React Components
   
-One of the advantages of react is that it makes use of components, which are reusable and also makes code modular. For our Todo app, there will be two stateful components and one stateless component.
+ One of the advantages of react is that it makes use of components, which are reusable and also makes code modular. For our Todo app, there will be two stateful     components and one stateless component.
 
   ![5c](https://user-images.githubusercontent.com/93729559/162429233-2a947d1e-5823-4e88-a440-ab8d41b15117.png)
+  
+  -To make use of Axios, which is a Promise based HTTP client for the browser and node.js, 
+  I'll need to cd into the client and run yarn add axios or npm install axios.
+  
+  ![5d](https://user-images.githubusercontent.com/93729559/162429847-66c9b7e0-e18f-40b0-81cb-5e1d460fca4e.png)
+  
+  - Then I'll have to navigate back to  ‘components’ directory, open the ListTodo.js and insert the code as shown below:
+  
+  ![6](https://user-images.githubusercontent.com/93729559/162430437-2e9b0b2a-0422-47bd-95d3-1fc9ad50f5dd.png)
+  
+  
+  - Then in the Todo.js file you write the following code:
+  
+  ![6a](https://user-images.githubusercontent.com/93729559/162430756-3e6e6749-3789-4f69-b964-f6bb937c011f.png)
+
+
+  
+  
   
   
 
