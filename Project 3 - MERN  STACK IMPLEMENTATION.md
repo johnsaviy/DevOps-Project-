@@ -147,6 +147,24 @@ We need a database where we will store our data. For this we will make use of mL
   Therefore, I'll will need to make use of some API development client to test our code.
   In this project,  I''ll use Postman to test our API.
   
+  
+![4d](https://user-images.githubusercontent.com/93729559/162423551-9087addf-7f81-4839-a63a-b1fe8aa04c0f.png)
+  
+![4e](https://user-images.githubusercontent.com/93729559/162423570-3d0f9e7b-12e7-4c25-b8d7-9a39b5802bcd.png)
+  
+ I have successfully created the Backend, now let's go create the Frontend.
+  
+  
+ -STEP 5 - Frontend creation.
+  
+Since we are done with the functionality we want from our backend and API, it is time to create a user interface for a Web client (browser) to interact with the application via API. To start out with the frontend of the To-do app, I will use the create-react-app command to scaffold our app.
+
+
+  
+ 
+
+
+  
 
   
   
