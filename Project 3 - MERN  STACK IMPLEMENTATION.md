@@ -195,9 +195,24 @@ Since we are done with the functionality we want from our backend and API, it is
   ![6](https://user-images.githubusercontent.com/93729559/162430437-2e9b0b2a-0422-47bd-95d3-1fc9ad50f5dd.png)
   
   
-  - Then in the Todo.js file you write the following code:
+  - Then in the Todo.js file I'll write the following code:
   
   ![6a](https://user-images.githubusercontent.com/93729559/162430756-3e6e6749-3789-4f69-b964-f6bb937c011f.png)
+  
+  
+  -We need to make little adjustment to our react code. Delete the logo and adjust our App.js to look like this.
+  
+  ![6b](https://user-images.githubusercontent.com/93729559/162431260-e6f976b4-41a8-48f8-b34a-2a23b6e87edd.png)
+  
+
+ - In the src directory I'll open the App.css and write the code as shown below:
+  
+  ![6c](https://user-images.githubusercontent.com/93729559/162431931-00b8d8e4-6008-4ee5-9aa5-fb8931fada56.png)
+
+  
+  
+  
+  
 
 
   
