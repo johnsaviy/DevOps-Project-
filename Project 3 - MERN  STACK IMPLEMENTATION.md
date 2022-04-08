@@ -208,6 +208,23 @@ Since we are done with the functionality we want from our backend and API, it is
  - In the src directory I'll open the App.css and write the code as shown below:
   
   ![6c](https://user-images.githubusercontent.com/93729559/162431931-00b8d8e4-6008-4ee5-9aa5-fb8931fada56.png)
+  
+  
+  Next In the src directory i will write the following code in the index.css file:
+  
+  ![6d](https://user-images.githubusercontent.com/93729559/162432645-6e46b6dd-a26d-49a7-bd70-ecf64a37604e.png)
+  
+  
+  - Next I will run our Todo app!
+  
+ ![7](https://user-images.githubusercontent.com/93729559/162433759-7b2fe9d2-0597-484d-83dc-54f3460e14d1.png)
+  
+![8](https://user-images.githubusercontent.com/93729559/162433774-5266e2b9-bcea-4e0b-a621-a8fbdb099abe.png)
+  
+  MERN STACK / TODO APPLICATION SUCCESSFULLY IMPLEMENTED!
+
+
+
 
   
   
