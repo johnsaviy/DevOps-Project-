@@ -165,6 +165,18 @@ Since we are done with the functionality we want from our backend and API, it is
   
   ![5](https://user-images.githubusercontent.com/93729559/162425629-d6627b85-e03f-423a-9df8-3434c12bdf48.png)
   
+  - Next I'll Configure Proxy in package.json in the client folder adding the key value pair in the package.json file "proxy": " http: // localhost: 5000 ".
+  The whole purpose of adding the proxy configuration in number 3 above is to make it possible to access the application directly from the browser by simply calling the server url like http: //localhost:5000 rather than always including the entire path like http: //localhost:5000/api/todos.
+  
+  
+  Now I will run the app
+  
+  In order to be able to access the application from the Internet you have to open TCP port 3000 on EC2 by adding a new Security Group rule.
+  
+  ![5a](https://user-images.githubusercontent.com/93729559/162425653-eec8a52b-1d29-45cd-8436-d4a45f11a7af.png)
+  
+  
+  
  
 
 
