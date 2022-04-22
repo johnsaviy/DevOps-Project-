@@ -15,6 +15,8 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
 
 On mysql server Linux Server I'll install MySQL Server software.
 
+![2](https://user-images.githubusercontent.com/93729559/164704650-07ea3a78-9e46-4909-8a0e-2d74d7a8526d.png)
+
 
 
 
