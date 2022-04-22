@@ -18,5 +18,13 @@ On mysql server Linux Server I'll install MySQL Server software.
 ![2](https://user-images.githubusercontent.com/93729559/164704650-07ea3a78-9e46-4909-8a0e-2d74d7a8526d.png)
 
 
+#### Step 3.
+
+On mysql client Linux Server I'll install MySQL Client software.
+
+![3](https://user-images.githubusercontent.com/93729559/164705365-d3994a98-1ddf-42ce-8bcb-b252106d95a7.png)
+
+
+
 
 
