@@ -37,6 +37,19 @@ For extra security, I'll not allow all IP addresses to reach the ‘mysql server
 ![4](https://user-images.githubusercontent.com/93729559/164708399-9fbbcab3-fec3-4c10-b406-ccc164f6d918.png)
 
 
+#### Step 5
+
+Next I'll configure MySQL server to allow connections from remote hosts.
+And Replace ‘127.0.0.1’ to ‘0.0.0.0’ like this:
+
+
+![5](https://user-images.githubusercontent.com/93729559/164712513-dbb0e7b8-d03e-4f4c-9be4-bf63cc890f74.png)
+
+![5b](https://user-images.githubusercontent.com/93729559/164712534-dc110283-945b-4f80-9599-1e1cd23d1261.png)
+
+
+
+
 
 
 
