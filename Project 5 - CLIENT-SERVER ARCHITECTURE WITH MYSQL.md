@@ -48,6 +48,10 @@ And Replace ‘127.0.0.1’ to ‘0.0.0.0’ like this:
 ![5b](https://user-images.githubusercontent.com/93729559/164712534-dc110283-945b-4f80-9599-1e1cd23d1261.png)
 
 
+#### Step 6
+
+From mysql client Linux Server I'll connect remotely to mysql server Database Engine using the mysql utility.
+
 
 
 
