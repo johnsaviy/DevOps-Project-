@@ -9,3 +9,8 @@ This Project consists of two parts:
   Here, I'll be working with disks, partitions and volumes in Linux (REDHAT LINUX DISTRIBUTION).
 
 2. Install WordPress and connect it to a remote MySQL database server.
+
+
+#### Step 1 — Prepare a Web Server
+
+I'll Launch an EC2 instance that will serve as "Web Server". Create 3 volumes in the same AZ as the Web Server EC2, each of 10 GiB.
