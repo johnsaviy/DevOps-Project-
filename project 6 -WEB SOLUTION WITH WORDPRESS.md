@@ -21,5 +21,10 @@ I'll Launch an EC2 instance in AWS that will serve as "Web Server". Create 3 vol
 
 ![2](https://user-images.githubusercontent.com/93729559/165050115-811ea934-340a-4926-b108-5351947771c0.png)
 
+<br>
 
+
+#### - Attaching all three volumes one by one to the Web Server EC2 instance.
+
+![3](https://user-images.githubusercontent.com/93729559/165051002-8b38c377-5c18-45ed-8d58-15be32e618d1.png)
 
