@@ -85,6 +85,20 @@ Also verifying that the VG has been created successfully by running sudo vgs
 ![9b](https://user-images.githubusercontent.com/93729559/165212961-8abe8291-fa3e-4ed3-9ffe-72c7696639ba.png)
 ![9bi](https://user-images.githubusercontent.com/93729559/165212963-eaae9aa4-2704-4573-bbf1-3514137fd9e5.png)
 
+<br>
+
+#### - Using lvcreate utility to create 2 logical volumes. apps-lv (Use half of the PV size), and logs-lv Use the remaining space of the PV size. NOTE: apps-lv will be used to store data for the Website while, logs-lv will be used to store data for logs.
+
+- Also  Verifying that the Logical Volume has been created successfully by running sudo lvs.
+
+![9c](https://user-images.githubusercontent.com/93729559/165214168-ef032846-7416-4aef-8d3b-d02949715543.png)
+
+
+#### - Verifying the entire setup.
+
+![9d](https://user-images.githubusercontent.com/93729559/165214783-3ef64fd4-6eb5-4dd1-a2e9-5982d38a9bdf.png)
+
+
 
 
 
