@@ -97,6 +97,63 @@ Also verifying that the VG has been created successfully by running sudo vgs
 #### - Verifying the entire setup.
 
 ![9d](https://user-images.githubusercontent.com/93729559/165214783-3ef64fd4-6eb5-4dd1-a2e9-5982d38a9bdf.png)
+<br>
+
+
+#### - Next, Using mkfs.ext4 to format the logical volumes with ext4 filesystem.
+
+
+![9e](https://user-images.githubusercontent.com/93729559/165253846-e67e309c-d2b9-4885-bc86-419482995388.png)
+
+
+#### - Creating /var/www/html directory to store website files, /home/recovery/logs to store backup of log data, and Mount /var/www/html on apps-lv logical volume.
+
+![9e1](https://user-images.githubusercontent.com/93729559/165256158-9bcdf217-46ba-4a73-acc5-f34763684131.png)
+![9e2](https://user-images.githubusercontent.com/93729559/165256164-1376104b-d58b-4136-840f-8301ca404d8f.png)
+
+<br>
+
+#### - Use rsync utility to backup all the files in the log directory /var/log into /home/recovery/logs (This is required before mounting the file system).
+
+![9f](https://user-images.githubusercontent.com/93729559/165258552-bb8011fe-c17e-494c-974c-4266c4bd1d12.png)
+
+<br>
+
+#### - Mount /var/log on logs-lv logical volume. 
+(Note that all the existing data on /var/log will be deleted. That is why backing up all the files in the log directory /var/log into /home/recovery/logs above is very important)
+
+
+![9g](https://user-images.githubusercontent.com/93729559/165259684-3e7f8b0e-d08c-4924-a882-f62aeeb16099.png)
+
+<br>
+
+#### - Restore log files back into /var/log directory
+
+![9h](https://user-images.githubusercontent.com/93729559/165260759-f55a6243-5231-4f24-ab01-b494c7dab88d.png)
+
+
+<br>
+
+#### -Update /etc/fstab file so that the mount configuration will persist after restart of the server.
+
+The UUID of the device will be used to update the /etc/fstab file;
+
+![9i](https://user-images.githubusercontent.com/93729559/165264451-68eaa9cf-4178-465c-bf85-1b2647fbc5ca.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
