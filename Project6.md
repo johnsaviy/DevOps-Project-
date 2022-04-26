@@ -28,6 +28,39 @@ I'll Launch an EC2 instance in AWS that will serve as "Web Server". Create 3 vol
 
 ![3](https://user-images.githubusercontent.com/93729559/165051002-8b38c377-5c18-45ed-8d58-15be32e618d1.png)
 
+<br>
+
+#### - Using lsblk command to inspect what block devices are attached to the server.
+
+![4](https://user-images.githubusercontent.com/93729559/165203381-44df3363-01f5-4883-b62f-c71a74f35af0.png)
+
+
+
+#### - Using df -h command to see all mounts and free space on your server.
+
+
+![4b](https://user-images.githubusercontent.com/93729559/165204245-27660200-3439-4284-b733-9c9f250e4548.png)
+
+
+
+#### - Using gdisk utility to create a single partition on each of the 3 disks
+
+![5](https://user-images.githubusercontent.com/93729559/165206310-ce841345-6599-4101-9823-4784ea3692ad.png)
+
+![5b](https://user-images.githubusercontent.com/93729559/165206313-93971801-d65c-4477-9a9b-0bafc0e3ca95.png)
+
+![6](https://user-images.githubusercontent.com/93729559/165206314-e1bd8aaf-f953-4e91-b58a-63d71a7e20f0.png)
+
+![7](https://user-images.githubusercontent.com/93729559/165206316-054a640a-7e9a-4afd-bd36-3818d3b07230.png)
+
+<br>
+
+
+#### - Using lsblk utility to view the newly configured partition on each of the 3 disks.
+
+
+![8](https://user-images.githubusercontent.com/93729559/165206800-20d2caff-0ad1-46a5-af19-863e96bed655.png)
+
 
 
 
