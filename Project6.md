@@ -61,6 +61,43 @@ I'll Launch an EC2 instance in AWS that will serve as "Web Server". Create 3 vol
 
 ![8](https://user-images.githubusercontent.com/93729559/165206800-20d2caff-0ad1-46a5-af19-863e96bed655.png)
 
+<br>
+
+
+#### - Next, Installing lvm2 package using sudo yum install lvm2 and Run sudo lvmdiskscan command to check for available partitions.
+
+
+![9](https://user-images.githubusercontent.com/93729559/165209927-f90d6ad3-ccf8-45d7-91a2-034d158af5d9.png)
+
+<br>
+
+
+#### - Using pvcreate utility to mark each of 3 disks as physical volumes (PVs) to be used by LVM and Verifing that the Physical volume has been created successfully by running sudo pvs
+
+
+![9a](https://user-images.githubusercontent.com/93729559/165211390-f0e44a22-38e8-4e4d-8d28-75211166609d.png)
+<br>
+
+
+#### - Next, Using vgcreate utility to add all 3 PVs to a volume group (VG) and naming the VG webdata-vg.
+Also verifying that the VG has been created successfully by running sudo vgs
+
+![9b](https://user-images.githubusercontent.com/93729559/165212961-8abe8291-fa3e-4ed3-9ffe-72c7696639ba.png)
+![9bi](https://user-images.githubusercontent.com/93729559/165212963-eaae9aa4-2704-4573-bbf1-3514137fd9e5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
