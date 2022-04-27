@@ -228,6 +228,34 @@ The UUID of the device will be used to update the /etc/fstab file;
 ![10c](https://user-images.githubusercontent.com/93729559/165493147-7bbb7644-5263-4441-b265-7f8c881eae64.png)
 
 
+- After the successful installation of yum-utils and Remi-packages, search for the PHP modules which are available for download by running the command: sudo dnf module list php
+
+- The output will include the available PHP modules, stream and installation profiles as shown below.
+
+
+![10d](https://user-images.githubusercontent.com/93729559/165494516-064a71fe-0724-44c3-82ba-e023b8536226.png)
+
+
+- The output indicates that the currently installed version of PHP is PHP 7.2. To install the newer release, reset the PHP modules, using the command: sudo dnf module reset php
+
+
+![10e](https://user-images.githubusercontent.com/93729559/165495577-fdb2b3d8-2f40-4787-bcf6-e1e3f28061b5.png)
+
+
+- Having reset the PHP modules, enable the PHP 7.4 module by running: sudo dnf module enable php:remi-7.4
+
+![10f](https://user-images.githubusercontent.com/93729559/165496708-ac0ade2f-1430-4977-8d46-b071e988fae2.png)
+
+
+- Finally, install PHP, PHP-FPM (FastCGI Process Manager) and associated PHP modules using the command.
+
+
+
+
+
+
+
+
 
 
 
