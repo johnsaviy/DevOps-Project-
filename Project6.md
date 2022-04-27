@@ -196,6 +196,41 @@ The UUID of the device will be used to update the /etc/fstab file;
 ![db5a](https://user-images.githubusercontent.com/93729559/165432452-8a6b4706-dadf-4a52-9cc8-bb343db4bf42.png)
 
 
+<br>
+
+#### Step 3 — Install WordPress on your Web Server EC2.
+
+
+- Updating the repository, Install wget, Apache and it’s dependencies, Start Apache
+
+![10](https://user-images.githubusercontent.com/93729559/165484634-7a4dd4ff-de19-4867-9658-9b22ebf65fe0.png)
+
+
+
+- Installing wget httpd php php-mysqlnd php-fpm php-json
+
+
+![10a](https://user-images.githubusercontent.com/93729559/165492003-b9116ca8-8a8e-40a6-95f5-174d4a0c70dc.png)
+
+
+
+#### - We are going to install the latest version of PHP using the Remi repository.
+
+- First, install the EPEL repository using the following command: sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+
+
+![10b](https://user-images.githubusercontent.com/93729559/165491449-b8bab95e-ef09-46fc-b84f-f8f7a64329d4.png)
+
+
+- Next, install yum utils and enable remi-repository using the command: sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm 
+
+
+![10c](https://user-images.githubusercontent.com/93729559/165493147-7bbb7644-5263-4441-b265-7f8c881eae64.png)
+
+
+
+
+
 
 
 
