@@ -11,7 +11,7 @@ This Project consists of two parts:
 2. Install WordPress and connect it to a remote MySQL database server.
 
 
-#### Step 1 — Prepare a Web Server
+#### Step 1 — Prepare the Web Server
 
 I'll Launch an EC2 instance in AWS that will serve as "Web Server". Create 3 volumes in the same AZ(Availability zone) as the Web Server EC2, each of 10 GiB.
 
@@ -134,11 +134,34 @@ Also verifying that the VG has been created successfully by running sudo vgs
 
 <br>
 
-#### -Update /etc/fstab file so that the mount configuration will persist after restart of the server.
+####  — Update /etc/fstab file so that the mount configuration will persist after restart of the server.
 
 The UUID of the device will be used to update the /etc/fstab file;
 
 ![9i](https://user-images.githubusercontent.com/93729559/165264451-68eaa9cf-4178-465c-bf85-1b2647fbc5ca.png)
+
+
+<br>
+
+#### - Test the configuration and reload the daemon.
+
+![9j](https://user-images.githubusercontent.com/93729559/165420439-4dcc1242-7bcb-4b58-a201-60cf175de0ea.png)
+
+
+- Verifying the setup by running df -h
+
+![9k](https://user-images.githubusercontent.com/93729559/165420846-70742149-d229-40b5-a94b-822f11960067.png)
+
+
+
+<br>
+
+####  Step 2 — Prepare the Database Server
+
+Launch a second RedHat EC2 instance in AWS that will have a role – ‘DB Server’
+Repeat the same steps as for the Web Server, but instead of apps-lv create db-lv and mount it to /db directory instead of /var/www/html/.
+
+
 
 
 
