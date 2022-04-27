@@ -278,6 +278,18 @@ The UUID of the device will be used to update the /etc/fstab file;
 #### - Download wordpress and copy wordpress to var/www/html
 
 
+![11](https://user-images.githubusercontent.com/93729559/165505155-ba6bd96e-babc-4eca-a4b5-a8b151495de0.png)
+
+![11a](https://user-images.githubusercontent.com/93729559/165506637-fa66ff6d-0072-4e7d-b2d6-61af2b05961a.png)
+
+![11b](https://user-images.githubusercontent.com/93729559/165509524-9519dcdd-f9a2-4f6f-8fc5-98f8bb25aa9e.png)
+
+
+
+
+
+
+
 
 
 
