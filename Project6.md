@@ -286,15 +286,75 @@ The UUID of the device will be used to update the /etc/fstab file;
 
 
 
+- I'll also need to install Mysql on the web server and verify that the service is up and running
+
+![11c](https://user-images.githubusercontent.com/93729559/165511122-747d529d-7fa7-479a-9b38-191876b97fff.png)
+
+![11d](https://user-images.githubusercontent.com/93729559/165512209-9ade750f-620e-4aac-a937-1a83aea733c3.png)
+
+
+
+
+#### Step 4 — Install MySQL on the DB Server EC2.
+
+-Install MySQL on the DB Server EC2, start and enable it.
+
+![12](https://user-images.githubusercontent.com/93729559/165513469-d345c939-e3ec-4572-bcff-af411d042723.png)
+
+![12a](https://user-images.githubusercontent.com/93729559/165513476-1b117e12-8c70-47b0-921f-ea45c385a57c.png)
+
+
+
+#### Step 5 — Configure DB to work with WordPress
+
+![13](https://user-images.githubusercontent.com/93729559/165518064-ffeca18e-fcdf-4bee-90ee-691210564210.png)
+
+![13a](https://user-images.githubusercontent.com/93729559/165518070-db55b67c-cbe0-4ae9-9adf-d30efb4cae01.png)
+
+
+- Edit the configuration file and restart the service.
+
+![13b](https://user-images.githubusercontent.com/93729559/165519417-44be9363-1293-4f9c-b44f-cb039e49ca9b.png)
+
+![13c](https://user-images.githubusercontent.com/93729559/165519728-f10fae3e-77a1-4d00-8c0b-fc75a42719eb.png)
+
+
+
+
+#### Step 6 — Configure WordPress to connect to remote database.
+
+- Configure the wp-config.php 
+
+![1a](https://user-images.githubusercontent.com/93729559/165522788-f42f4d37-9021-49fe-b400-e5b816c540a2.png)
+
+![1](https://user-images.githubusercontent.com/93729559/165522789-873faa9c-90fe-4b50-858b-2aeeac1f4420.png)
+
+
+
+- Disabling Apache Welcome Page using the command: mv /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf_backup. Then restart Apache.
+
+![2](https://user-images.githubusercontent.com/93729559/165524057-2c25326c-22e4-4b88-a623-77fb9933fc20.png)
+
+
+- Verifying if I can successfully execute SHOW DATABASES; command and see a list of existing databases.
+
+![3](https://user-images.githubusercontent.com/93729559/165525203-451bbe30-a33e-409e-b910-e5101daba585.png)
+
+
+- Configure SELinux Policies.
+
+![6](https://user-images.githubusercontent.com/93729559/165531901-17319797-d18d-46cb-830f-66ab0022b209.png)
 
 
 
 
 
+#### - Now lets access from the browser the link to the WordPress.
+  
 
+![4](https://user-images.githubusercontent.com/93729559/165531439-a93fbc07-2756-4183-b506-b38de37e898a.png)
 
-
-
+![5](https://user-images.githubusercontent.com/93729559/165531454-fa9e0b3a-d64f-4137-bda8-8e39c6a5efe3.png)
 
 
 
