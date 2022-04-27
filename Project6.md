@@ -357,8 +357,7 @@ The UUID of the device will be used to update the /etc/fstab file;
 ![5](https://user-images.githubusercontent.com/93729559/165531454-fa9e0b3a-d64f-4137-bda8-8e39c6a5efe3.png)
 
 
-
-
+####  Perfect! I have successfully configured Linux storage susbystem and have also deployed a full-scale Web Solution using WordPress CMS and MySQL RDBMS!
 
 
 
