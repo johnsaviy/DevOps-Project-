@@ -268,6 +268,18 @@ The UUID of the device will be used to update the /etc/fstab file;
 ![10j](https://user-images.githubusercontent.com/93729559/165500222-6cfa6226-c864-400d-961e-716f14df07c6.png)
 
 
+- Start Apache and check Apache status
+
+![10k](https://user-images.githubusercontent.com/93729559/165501868-a56cc27b-f1ea-4853-bdc7-5a9363d22c6d.png)
+
+
+<br>
+
+#### - Download wordpress and copy wordpress to var/www/html
+
+
+
+
 
 
 
