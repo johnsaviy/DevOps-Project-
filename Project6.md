@@ -89,7 +89,7 @@ Also verifying that the VG has been created successfully by running sudo vgs
 
 #### - Using lvcreate utility to create 2 logical volumes. apps-lv (Use half of the PV size), and logs-lv Use the remaining space of the PV size. NOTE: apps-lv will be used to store data for the Website while, logs-lv will be used to store data for logs.
 
-- Also  Verifying that the Logical Volume has been created successfully by running sudo lvs.
+- Also verifying that the Logical Volume has been created successfully by running sudo lvs.
 
 ![9c](https://user-images.githubusercontent.com/93729559/165214168-ef032846-7416-4aef-8d3b-d02949715543.png)
 
@@ -159,7 +159,51 @@ The UUID of the device will be used to update the /etc/fstab file;
 ####  Step 2 — Prepare the Database Server
 
 Launch a second RedHat EC2 instance in AWS that will have a role – ‘DB Server’
-Repeat the same steps as for the Web Server, but instead of apps-lv create db-lv and mount it to /db directory instead of /var/www/html/.
+Repeat the same steps as for the Web Server, but instead of apps-lv create db-lv (Logical volume) and mount it to /db directory instead of /var/www/html/.
+
+
+#### - Using lvcreate utility to create logical volume db-lv and verifying that the Logical Volume has been created successfully by running sudo lvs.
+
+![db1](https://user-images.githubusercontent.com/93729559/165427733-c260d60a-9894-4b94-842a-df35c32bd4d7.png)
+
+<br>
+
+#### - Next, creating the /db directory and using mkfs.ext4 to format the logical volumes with ext4 filesystem.
+
+![db2](https://user-images.githubusercontent.com/93729559/165429261-d4524593-6055-4641-b3fe-2f5e655b62d2.png)
+
+
+#### - Mount /dev/vg-database/db-lv  to /db.
+
+
+![db3](https://user-images.githubusercontent.com/93729559/165429789-a619f461-bc04-4613-88bf-b2663216cf2a.png)
+
+
+<br>
+####  — Update /etc/fstab file so that the mount configuration will persist after restart of the server.
+
+The UUID of the device will be used to update the /etc/fstab file;
+
+![db4](https://user-images.githubusercontent.com/93729559/165431588-8ecc25c4-5441-434f-b7f5-4eccaa85e7bc.png)
+
+![db4a](https://user-images.githubusercontent.com/93729559/165431590-7f512807-2fa7-4d22-a811-40097812cd74.png)
+
+
+#### - Test the configuration,  reload the daemon and verifying the setup by running df -h
+
+![db5](https://user-images.githubusercontent.com/93729559/165432448-447f8620-abfa-4b27-b7de-e68248e4be47.png)
+
+![db5a](https://user-images.githubusercontent.com/93729559/165432452-8a6b4706-dadf-4a52-9cc8-bb343db4bf42.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
