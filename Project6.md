@@ -247,7 +247,30 @@ The UUID of the device will be used to update the /etc/fstab file;
 ![10f](https://user-images.githubusercontent.com/93729559/165496708-ac0ade2f-1430-4977-8d46-b071e988fae2.png)
 
 
-- Finally, install PHP, PHP-FPM (FastCGI Process Manager) and associated PHP modules using the command.
+- Finally, install PHP, PHP-FPM (FastCGI Process Manager) and associated PHP modules using the command: sudo dnf install php php-opcache php-gd php-curl php-mysqlnd
+
+
+![10g](https://user-images.githubusercontent.com/93729559/165497751-7f6d7bbb-3e57-434c-844b-edd6e17cec39.png)
+
+
+- To verify the version installed to run: php -v 
+
+![10h](https://user-images.githubusercontent.com/93729559/165498111-35eebb92-330d-4ded-ba57-b45477e711d5.png)
+
+
+- Perfect! We now have PHP 7.4 installed. Equally important, we need to start and enable PHP-FPM on boot-up, and also check its status.
+
+![10i](https://user-images.githubusercontent.com/93729559/165499131-b3ad6570-b09e-45c5-bd98-2dea0d7e8fba.png)
+
+
+- Next, we need to instruct SELinux to allow Apache to execute the PHP code via PHP-FPM by running: setsebool -P httpd_execmem 1
+
+![10j](https://user-images.githubusercontent.com/93729559/165500222-6cfa6226-c864-400d-961e-716f14df07c6.png)
+
+
+
+
+
 
 
 
