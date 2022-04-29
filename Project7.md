@@ -81,3 +81,24 @@ format, how this data will be accessed, by whom, from where, how frequently, etc
 
 
 
+#### - Next I'll Install NFS server, configure it to start on reboot and make sure it is up and running!
+
+
+- Running sudo yum -y update first.
+
+![11](https://user-images.githubusercontent.com/93729559/165930939-c479a765-530b-4065-b4ec-5bc9eaf4c40f.png)
+
+
+<br>
+
+#### - Export the mounts for webservers’ subnet cidr to connect as clients. 
+For simplicity, I will install your all three Web Servers inside the same subnet, but in production set up I would probably want to separate each tier inside its own subnet for higher level of security.
+To check the subnet cidr – I will open the EC2 details in AWS web console and locate ‘Networking’ tab and open a Subnet link:
+
+![12](https://user-images.githubusercontent.com/93729559/165931151-824a8941-0634-4628-b612-20d13493f34c.png)
+
+
+
+
+
+
