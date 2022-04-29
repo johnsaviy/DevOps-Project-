@@ -43,4 +43,41 @@ It is important to know what storage solution is suitable for what use cases, fo
 format, how this data will be accessed, by whom, from where, how frequently, etc. Base on this you will be able to choose the right storage system for your solution.
 
 
+#### Step 1 – Prepare NFS Server
+
+- Spin up a new EC2 instance with RHEL Linux 8 Operating System.
+
+- Based on the LVM experience from Project 6, I'll Configure LVM on the Server.
+
+- Instead of formating the disks as ext4 I will have to format them as xfs
+
+- Ensure there are 3 Logical Volumes. lv-opt lv-apps, and lv-logs
+
+- I'll Create mount points on /mnt directory for the logical volumes as follow:
+- Mount lv-apps on /mnt/apps – To be used by webservers
+- Mount lv-logs on /mnt/logs – To be used by webserver logs
+- Mount lv-opt on /mnt/opt – To be used by Jenkins server in the next project.
+
+
+![1](https://user-images.githubusercontent.com/93729559/165929343-e171fa70-18af-49e3-83c0-7b9b59898581.png)
+
+![2](https://user-images.githubusercontent.com/93729559/165929344-d2bd6c70-ddd6-407c-a1e0-0840ed62e2ef.png)
+
+![3](https://user-images.githubusercontent.com/93729559/165929347-51f96254-e5c0-4411-9d15-dee82b4cd6e9.png)
+
+![4](https://user-images.githubusercontent.com/93729559/165929350-d1e5982a-71e7-4a8f-8f0e-d2e64ec8d86d.png)
+
+![5](https://user-images.githubusercontent.com/93729559/165929353-0fe1153f-c68d-42fc-83a8-68ae15324379.png)
+
+![6](https://user-images.githubusercontent.com/93729559/165929355-e27b0976-fd7c-454d-b958-20c6b6961f55.png)
+
+![7](https://user-images.githubusercontent.com/93729559/165929358-9f1f7c56-d8f5-4ea2-812e-9d7f8c7881da.png)
+
+![8](https://user-images.githubusercontent.com/93729559/165929360-fe85dcf6-6dfe-4e22-a3f1-2fefac0ec9b1.png)
+
+![9](https://user-images.githubusercontent.com/93729559/165929363-1a485d7a-62d6-435d-a334-930e276d18d7.png)
+
+![10](https://user-images.githubusercontent.com/93729559/165929365-bb68cdbd-512c-4920-ab60-2b8788131e6c.png)
+
+
 
