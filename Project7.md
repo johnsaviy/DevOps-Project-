@@ -177,9 +177,55 @@ This approach will make our Web Servers stateless, which means we will be able t
 
 During the next steps I'll will do following:
 
-- Configure NFS client (this step must be done on all three servers)
-- Deploy a Tooling application to our Web Servers into a shared NFS folder
-- Configure the Web Servers to work with a single MySQL database
+  - Configure NFS client (this step must be done on all three servers)
+  - Deploy a Tooling application to our Web Servers into a shared NFS folder
+  - Configure the Web Servers to work with a single MySQL database
+
+
+
+- Launch a new EC2 instance with RHEL 8 Operating System in AWS and Install NFS client.
+
+
+![20](https://user-images.githubusercontent.com/93729559/165942972-e5bac9b0-0015-4053-a00f-c595e380ad9f.png)
+
+
+
+- Mount /var/www/ and target the NFS server’s export for apps
+- Verify that NFS was mounted successfully by running df -h. Make sure that the changes will persist on Web Server after reboot: add following line
+
+
+![20a](https://user-images.githubusercontent.com/93729559/165945788-7b350263-4969-4adf-a6e5-31bb61a56e53.png)
+
+![20b](https://user-images.githubusercontent.com/93729559/165945792-87c18dad-f51a-4bf6-aaa1-9cd318fdc0d7.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
