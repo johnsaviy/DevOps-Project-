@@ -294,6 +294,21 @@ During the next steps I'll will do following:
 
 
 - Deploy the tooling website’s code to the Webserver. Ensure that the html folder from the repository is deployed to /var/www/html
+  
+ ![25](https://user-images.githubusercontent.com/93729559/166074364-1f8118de-e0df-4f2e-b963-2d254fecc22e.png)
+  
+![26](https://user-images.githubusercontent.com/93729559/166074367-e9bec5c5-e3f8-4016-8707-7fd86dc0952f.png)
+  
+![27](https://user-images.githubusercontent.com/93729559/166074369-8c377a1a-2780-4207-ab45-e4b4c8516de5.png)
+  
+![28](https://user-images.githubusercontent.com/93729559/166074372-1911f5a1-26b9-4d20-b2fd-4121507e5e7d.png)
+  
+![29](https://user-images.githubusercontent.com/93729559/166074373-512a733a-4e17-49a4-9fd9-292b1fbbcef7.png)
+  
+  
+ ![30](https://user-images.githubusercontent.com/93729559/166074475-1d69f82d-7d9a-4ef5-834f-0f0fd5db58c4.png)
+
+
 
 
 
