@@ -191,7 +191,8 @@ During the next steps I'll will do following:
 
 
 - Mount /var/www/ and target the NFS server’s export for apps
-- Verify that NFS was mounted successfully by running df -h. Make sure that the changes will persist on Web Server after reboot: add following line
+- Verify that NFS was mounted successfully by running df -h. Make sure that the changes will persist on Web Server after reboot: add following line:
+<NFS-Server-Private-IP-Address>:/mnt/apps /var/www nfs defaults 0 0
 
 
 ![20a](https://user-images.githubusercontent.com/93729559/165945788-7b350263-4969-4adf-a6e5-31bb61a56e53.png)
@@ -200,7 +201,99 @@ During the next steps I'll will do following:
 
 
 
+#### - Install Remi’s repository, Apache and PHP
+  
+  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  sudo yum install httpd -y
+  
+ ![21](https://user-images.githubusercontent.com/93729559/165948818-473116a0-c8f6-45ba-afc8-999859bde4b0.png)
+  
+  ![21ai](https://user-images.githubusercontent.com/93729559/165948826-8d009f90-3f75-4ec8-a30d-c5f291091635.png)
+  
+  
+  sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+  
+![21a](https://user-images.githubusercontent.com/93729559/165948823-5c2ef1cb-d5b5-48fa-b995-867ce5ef2ba1.png)
+  
+  
+  sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+  
+![21b](https://user-images.githubusercontent.com/93729559/165948829-f4fbb73f-ba49-4024-b149-d551c837140c.png)
+  
+   sudo dnf module reset php
+ 
+  
+![21c](https://user-images.githubusercontent.com/93729559/165948830-12d0fde6-65b0-4679-9660-d44781c83e99.png)
+  
+   sudo dnf module enable php:remi-7.4
+  
+  
+![21d](https://user-images.githubusercontent.com/93729559/165948834-597d58c4-605a-4dbf-88ec-fe58170cadfa.png)
+  
+  
+ sudo dnf install php php-opcache php-gd php-curl php-mysqlnd
+  
+![21e](https://user-images.githubusercontent.com/93729559/165948836-3d64f70d-b662-4f43-bb0c-0a23f1ef620a.png)
+  
+  
+    sudo systemctl enable php-fpm
+  
+   sudo systemctl start php-fpm
+  
+  setsebool -P httpd_execmem 1
+  
+![21 e](https://user-images.githubusercontent.com/93729559/165948839-4ef6bacc-1b74-4595-9b77-d1c742b48021.png)
+  
+  
+ 
+  
+ - Verify that Apache files and directories are available on the Web Server in /var/www and also on the NFS server in /mnt/apps. 
+  If you see the same files – it means NFS is mounted correctly. You can try to create a new file touch test.txt from one server and check if the same file is accessible from other Web Servers.
+  
+![21ai](https://user-images.githubusercontent.com/93729559/165948826-8d009f90-3f75-4ec8-a30d-c5f291091635.png)
+  
+![22](https://user-images.githubusercontent.com/93729559/165950567-fe3ed5d8-f95d-4b23-8806-5f7ed202a5aa.png)
+
+
+
+- Locate the log folder for Apache on the Web Server and mount it to NFS server’s export for logs. Make sure the mount point will persist after reboot.
+  
+![23](https://user-images.githubusercontent.com/93729559/165953631-9d02424d-a79d-48db-93af-17e539ab216b.png)
+  
+![23a](https://user-images.githubusercontent.com/93729559/165953635-abb5f88e-d786-4360-b056-7d7d65f78a26.png)
+  
+![23b](https://user-images.githubusercontent.com/93729559/165953638-71898e46-2993-4596-9e11-fa8248aa8418.png)
+  
+![23c](https://user-images.githubusercontent.com/93729559/165953641-bb9d956f-7382-437d-8473-24287939eae9.png)
+  
+![23d](https://user-images.githubusercontent.com/93729559/165953642-0f569fa0-3672-4444-bb05-7b47aa61005b.png)
+
+  
+  
+ 
+- Fork the tooling source code from https://github.com/johnsaviy/tooling.git
+  
+  
+  ![24a](https://user-images.githubusercontent.com/93729559/165959068-7232f549-0a5c-458c-92b5-0c905d85ecd5.png)
+
+
+- Deploy the tooling website’s code to the Webserver. Ensure that the html folder from the repository is deployed to /var/www/html
 
 
 
