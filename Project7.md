@@ -112,6 +112,80 @@ To check the subnet cidr – I will open the EC2 details in AWS web console and 
 
 
 
+- Restart the nfs-server to ensure the changes are effected!
+
+![16](https://user-images.githubusercontent.com/93729559/165934056-7e7dc3ac-9cf9-4c52-8128-d4a56f169485.png)
+
+
+
+- Configure access to NFS for clients within the same subnet.
+
+![17a](https://user-images.githubusercontent.com/93729559/165935400-c525ceb3-9114-4708-a176-01955af2d16f.png)
+
+![17b](https://user-images.githubusercontent.com/93729559/165935402-b4e3ee2b-be01-48ea-8398-d16c0dd5e452.png)
+
+![17c](https://user-images.githubusercontent.com/93729559/165935407-317bdf59-3a93-4bb4-a3fd-358a9129d0a1.png)
+
+
+#### - Check which port is used by NFS and open it using Security Groups (add new Inbound Rule)
+
+![18](https://user-images.githubusercontent.com/93729559/165935695-2bed6005-e7dc-4b8b-b87c-c135171c9eac.png)
+
+
+- Important note: In order for NFS server to be accessible from your client, you must also open following ports: TCP 111, UDP 111, UDP 2049
+
+In this case I opened all traffic since its for testing purpose and this opens all ports.
+
+
+![18a](https://user-images.githubusercontent.com/93729559/165936797-f57c01a9-9ebb-4dde-b07a-7c22c2b46172.png)
+
+
+
+
+#### STEP 2 — CONFIGURE THE DATABASE SERVER
+
+- Install MySQL server
+- Create a database and name it tooling
+- Create a database user and name it webaccess
+- Grant permission to webaccess user on tooling database to do anything only from the webservers subnet cidr
+
+
+![19](https://user-images.githubusercontent.com/93729559/165941700-cc7c77bf-3332-43e8-a0ed-0bb2820c2623.png)
+
+![19a](https://user-images.githubusercontent.com/93729559/165941707-004a3e64-613e-4b9e-8000-3361345006b5.png)
+
+![19b](https://user-images.githubusercontent.com/93729559/165941711-b153a60f-7962-44c4-8147-3cd8768ec072.png)
+
+![19c](https://user-images.githubusercontent.com/93729559/165941713-61bce957-aa27-4687-892f-4393b706ef44.png)
+
+![19d](https://user-images.githubusercontent.com/93729559/165941716-b68e9b9e-fc54-4706-bf0a-d8ace1bc01f7.png)
+
+![19e](https://user-images.githubusercontent.com/93729559/165941718-4e03885e-eb56-4839-8ce6-8e3094afecbf.png)
+
+![19f](https://user-images.githubusercontent.com/93729559/165941720-9efc17a8-4f09-469b-8e51-8c1b8d95fb80.png)
+
+
+
+<br>
+
+#### Step 3 — Prepare the Web Servers
+
+We need to make sure that our Web Servers can serve the same content from shared storage solutions, in our case – NFS Server and MySQL database.
+You already know that one DB can be accessed for reads and writes by multiple clients. For storing shared files that our Web Servers will use – I'll will utilize NFS and mount previously created Logical Volume lv-apps to the folder where Apache stores files to be served to the users (/var/www).
+
+This approach will make our Web Servers stateless, which means we will be able to add new ones or remove them whenever we need, and the integrity of the data (in the database and on NFS) will be preserved.
+
+During the next steps I'll will do following:
+
+- Configure NFS client (this step must be done on all three servers)
+- Deploy a Tooling application to our Web Servers into a shared NFS folder
+- Configure the Web Servers to work with a single MySQL database
+
+
+
+
+
+
 
 
 
