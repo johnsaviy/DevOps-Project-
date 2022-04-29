@@ -88,6 +88,11 @@ format, how this data will be accessed, by whom, from where, how frequently, etc
 
 ![11](https://user-images.githubusercontent.com/93729559/165930939-c479a765-530b-4065-b4ec-5bc9eaf4c40f.png)
 
+![13](https://user-images.githubusercontent.com/93729559/165932135-8aaa47cb-a9d5-4448-a3dd-7bbeb9aceff2.png)
+
+![14](https://user-images.githubusercontent.com/93729559/165932140-ed1d79e2-8600-423b-82c3-a14e4da26001.png)
+
+
 
 <br>
 
@@ -96,6 +101,19 @@ For simplicity, I will install your all three Web Servers inside the same subnet
 To check the subnet cidr – I will open the EC2 details in AWS web console and locate ‘Networking’ tab and open a Subnet link:
 
 ![12](https://user-images.githubusercontent.com/93729559/165931151-824a8941-0634-4628-b612-20d13493f34c.png)
+
+
+
+- I'll make sure we set up permission that will allow our Web servers to read, write and execute files on NFS:
+
+![15a](https://user-images.githubusercontent.com/93729559/165933538-18e567bb-d035-4499-bd83-6d1aff293fbe.png)
+
+![15b](https://user-images.githubusercontent.com/93729559/165933540-fb803e8a-8627-4465-bf92-8ac3e82d110b.png)
+
+
+
+
+
 
 
 
