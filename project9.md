@@ -117,10 +117,29 @@ Then you will be asked which plugings to install – choose suggested plugins.
   
   
  - Save the configuration and let us try to run the build. For now we can only do it manually.
+<br>
+  
+  
+  - Click "Build Now" button, if you have configured everything correctly, the build will be successfull and you will see it under #1
+  
+  
+  ![10](https://user-images.githubusercontent.com/93729559/166102033-446b0f6c-4824-44ef-9a9b-0348da40b519.png)
+  
+    <br>
+  
+You can open the build and check in "Console Output" if it has run successfully.
+  
+  
+  ![11](https://user-images.githubusercontent.com/93729559/166102141-29d79101-2cf8-4085-8d62-ce811851df41.png)
+  
+  
+  If so –  I have just made a Jenkins build!
 
-  Click "Build Now" button, if you have configured everything correctly, the build will be successfull and you will see it under #1
+But this build does not produce anything and it runs only when we trigger it manually. Let us fix it.
+
   
   
+
   
   
   
