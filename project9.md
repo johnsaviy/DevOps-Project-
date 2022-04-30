@@ -224,7 +224,7 @@ Finished: SUCCESS
   
   I have seen the changes I had previously made in the GitHub – the job works as expected.
   
- I  have just implemented your a Continous Integration solution using Jenkins CI
+ I  have just implemented your a Continous Integration solution using Jenkins CI .
   
   
   
