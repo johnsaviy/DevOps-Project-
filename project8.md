@@ -96,6 +96,34 @@ and allow users to access our website using a single URL.
 ![6](https://user-images.githubusercontent.com/93729559/166096304-786a34c3-886e-4b85-977c-c44075df7570.png)
 
 
+- Configure load balancing
+
+![7](https://user-images.githubusercontent.com/93729559/166096791-734c9c88-2860-4e95-a1f2-9b02cde865a1.png)
+
+
+
+- Verifying that the configuration works – try to access the LB’s public IP address or Public DNS name from the browser:
+
+![8](https://user-images.githubusercontent.com/93729559/166097102-9a65dcc9-d0d8-4aef-b0ae-3175f6f4ed88.png)
+
+
+- Open two ssh consoles for both Web Servers and run following command: sudo tail -f /var/log/httpd/access_log
+
+![9](https://user-images.githubusercontent.com/93729559/166097363-d9ea8680-ddc7-4874-9de0-69ea218003ee.png)
+
+
+Try to refresh your browser page http://<Load-Balancer-Public-IP-Address-or-Public-DNS-Name>/index.php several times and make sure that both servers
+ receive HTTP GET requests from your LB – new records must appear in each server’s log file. 
+ The number of requests to each server will be approximately the same since we set loadfactor to the same value for both servers – it means that traffic will be disctributed evenly between them.
+
+If you have configured everything correctly – your users will not even notice that their requests are served by more than one server.
+
+
+![10](https://user-images.githubusercontent.com/93729559/166097466-9a79d1fc-a0cb-490f-8a85-e23e11872245.png)
+ 
+ 
+ - I have just implemented a Load balancing Web Solution for a DevOps team!!
+
 
 
 
