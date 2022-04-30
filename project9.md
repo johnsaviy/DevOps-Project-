@@ -93,6 +93,48 @@ Then you will be asked which plugings to install – choose suggested plugins.
 
 
   ![7](https://user-images.githubusercontent.com/93729559/166101564-dc97ff65-244a-4470-a540-96cffd0a1b8e.png)
+  
+  
+  
+  <br>
+  
+ #### Step 2 – Configure Jenkins to retrieve source codes from GitHub using Webhooks
+
+  In this part, I will configure a simple Jenkins job/project (these two terms can be used interchangeably). This job will be triggered by GitHub webhooks and will 
+  execute a ‘build’ task to retrieve codes from GitHub and store it locally on Jenkins server.
+
+
+  - Enable webhooks in your GitHub repository settings
+  
+  ![8](https://user-images.githubusercontent.com/93729559/166101568-71460499-ee44-44d6-a3f4-7166217fa9e8.png)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
