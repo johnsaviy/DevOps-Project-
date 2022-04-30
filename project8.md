@@ -66,6 +66,38 @@ and allow users to access our website using a single URL.
 
 
 
+#### Step 1 - Configure Apache As A Load Balancer
+
+
+- Create an Ubuntu Server 20.04 EC2 instance and name it Project-8-apache-lb, so the EC2 list will look like this:
+
+![1](https://user-images.githubusercontent.com/93729559/166095007-e9871130-3acc-4cfc-82fd-026ce495c63c.png)
+
+
+
+- Open TCP port 80 on Project-8-apache-lb by creating an Inbound Rule in Security Group.
+
+![2](https://user-images.githubusercontent.com/93729559/166095197-68e9d265-a6b3-43eb-aaa9-d1b90685bd89.png)
+
+
+
+- Install Apache Load Balancer on Project-8-apache-lb server and configure it to point traffic coming to LB to both Web Servers:
+
+![3](https://user-images.githubusercontent.com/93729559/166096254-65358c0f-0295-4a43-80f7-262560978fa1.png)
+
+![4](https://user-images.githubusercontent.com/93729559/166096257-52c9abee-3edb-4824-914b-209d1122a102.png)
+
+![5](https://user-images.githubusercontent.com/93729559/166096258-5ea68bbc-25db-4554-b7e3-627582dfddd3.png)
+
+
+
+- Making sure apache2 is up and running!
+
+![6](https://user-images.githubusercontent.com/93729559/166096304-786a34c3-886e-4b85-977c-c44075df7570.png)
+
+
+
+
 
 
 
