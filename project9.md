@@ -158,7 +158,15 @@ Configure triggering the job from GitHub webhook:
 You will see that a new build has been launched automatically (by webhook) and you can see its results – artifacts, saved on Jenkins server.
   
   
+ ![14](https://user-images.githubusercontent.com/93729559/166102694-c43b1e72-a02a-4b5c-9774-959546f5ccf6.png)
   
+ I have now configured an automated Jenkins job that receives files from GitHub by webhook trigger (this method is considered as ‘push’ because the changes are being ‘pushed’ and files transfer is initiated by GitHub). There are also other methods: trigger one job (downstreadm) from another (upstream), poll GitHub periodically and others.
+
+By default, the artifacts are stored on Jenkins server locally.: ls /var/lib/jenkins/jobs/tooling_github/builds/<build_number>/archive/
+  
+  
+  
+
 
   
   
