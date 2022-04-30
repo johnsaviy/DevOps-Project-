@@ -78,8 +78,21 @@ Here is how the updated architecture will look like upon competion of this proje
   <br>
 
 
+Retrieve it from your server: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  
+  
+Then you will be asked which plugings to install – choose suggested plugins.
+  
+  ![6](https://user-images.githubusercontent.com/93729559/166101561-84a42278-ee14-49e8-8a07-3923891da0db.png)
+  
+  <br>
+  
+  Once plugins installation is done – create an admin user and you will get your Jenkins server address.
+
+  The installation is completed!
 
 
+  ![7](https://user-images.githubusercontent.com/93729559/166101564-dc97ff65-244a-4470-a540-96cffd0a1b8e.png)
 
 
 
