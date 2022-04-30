@@ -24,3 +24,65 @@ Here is how the updated architecture will look like upon competion of this proje
 
 
 
+<br>
+
+#### Step 1 – Install Jenkins server
+
+- Create an AWS EC2 server based on Ubuntu Server 20.04 LTS and name it "Jenkins"
+
+![1](https://user-images.githubusercontent.com/93729559/166101546-dbbb38cb-4e5c-4540-b852-37e6139147a2.png)
+
+
+- Install JDK (since Jenkins is a Java-based application)
+
+
+![2](https://user-images.githubusercontent.com/93729559/166101550-97c74f48-f49e-4b91-ab6d-8e0271d7ed2a.png)
+
+
+![2a](https://user-images.githubusercontent.com/93729559/166101553-e5d72296-a858-4b59-a0e9-e7ee2df00095.png)
+
+
+<br>
+
+- Install Jenkins
+
+
+![3](https://user-images.githubusercontent.com/93729559/166101554-281f2a5b-5c36-44fb-ae02-4055936f7f4b.png)
+
+![3a](https://user-images.githubusercontent.com/93729559/166101556-c2fa8069-8839-46f1-b2c1-3f60a1110c60.png)
+
+
+- Making sure Jenkins is up and running
+
+![3b](https://user-images.githubusercontent.com/93729559/166101557-d046f4ec-6c98-4d29-bac6-5b4523869e68.png)
+
+
+<br>
+
+
+- By default Jenkins server uses TCP port 8080 – open it by creating a new Inbound Rule in the EC2 Security Group
+
+![4](https://user-images.githubusercontent.com/93729559/166101558-85156ebc-fac2-47fd-b988-9af0f9ad12d5.png)
+
+<br>
+
+- Perform initial Jenkins setup.
+
+- From the browser access http://<Jenkins-Server-Public-IP-Address-or-Public-DNS-Name>:8080
+
+- You will be prompted to provide a default admin password
+  
+  ![5](https://user-images.githubusercontent.com/93729559/166101560-cf0197de-b3c8-46a2-81fd-744cfea7dda9.png)
+  
+  
+  <br>
+
+
+
+
+
+
+
+
+
+
