@@ -153,6 +153,11 @@ Configure triggering the job from GitHub webhook:
   
   
 
+ -  Now, I'll go ahead and make some change in any file in the GitHub repository (e.g. README.MD file) and push the changes to the master branch.
+
+You will see that a new build has been launched automatically (by webhook) and you can see its results – artifacts, saved on Jenkins server.
+  
+  
   
 
   
