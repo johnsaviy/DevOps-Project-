@@ -139,6 +139,21 @@ But this build does not produce anything and it runs only when we trigger it man
 
   
   
+ - Click "Configure" your job/project and add these two configurations.
+  
+Configure triggering the job from GitHub webhook:
+  
+ ![12](https://user-images.githubusercontent.com/93729559/166102487-e8aed29f-4669-4348-81df-a76502a5d870.png)
+  
+  
+ 
+  - Configure "Post-build Actions" to archive all the files – files resulted from a build are called "artifacts"
+  
+![13](https://user-images.githubusercontent.com/93729559/166102488-aa5c43db-0511-4777-bfaa-269d09d1a65a.png)
+  
+  
+
+  
 
   
   
