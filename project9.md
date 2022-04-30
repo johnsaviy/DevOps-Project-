@@ -104,10 +104,21 @@ Then you will be asked which plugings to install – choose suggested plugins.
   execute a ‘build’ task to retrieve codes from GitHub and store it locally on Jenkins server.
 
 
-  - Enable webhooks in your GitHub repository settings
+  - Enable webhooks in your GitHub repository settings.
+  
+  In configuration of the Jenkins freestyle project choose Git repository, provide there the link to your Tooling GitHub repository
+  and credentials (user/password) so Jenkins could access files in the repository.
   
   ![8](https://user-images.githubusercontent.com/93729559/166101568-71460499-ee44-44d6-a3f4-7166217fa9e8.png)
   
+  
+  ![9](https://user-images.githubusercontent.com/93729559/166101571-4821840b-034d-4f1b-b218-79dbdd14bb80.png)
+  
+  
+  
+ - Save the configuration and let us try to run the build. For now we can only do it manually.
+
+  Click "Build Now" button, if you have configured everything correctly, the build will be successfull and you will see it under #1
   
   
   
