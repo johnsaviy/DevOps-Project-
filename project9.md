@@ -200,6 +200,36 @@ Jenkins is a highly extendable application and there are 1400+ plugins available
  - Test the configuration and make sure the connection returns Success. Remember, that TCP port 22 on NFS server must be open to receive SSH connections.
   
   
+  ![16](https://user-images.githubusercontent.com/93729559/166105043-0831c4d9-ffb4-49d3-af35-2520411b9371.png)
+
+  
+  <br>
+  
+  - Save the configuration, open your Jenkins job/project configuration page and add another one "Post-build Action"
+  
+  ![17](https://user-images.githubusercontent.com/93729559/166105547-70bf2944-aeef-43ea-a7a5-7bb775336386.png)
+
+  
+  -Save this configuration and go ahead, change something in README.MD file in your GitHub Tooling repository.
+
+Webhook will trigger a new job and in the "Console Output" of the job you will find something like this:
+
+SSH: Transferred 25 file(s)
+Finished: SUCCESS
+  
+ ![18](https://user-images.githubusercontent.com/93729559/166106262-9da4de94-c475-469e-b783-72288731d965.png)
+  
+![19](https://user-images.githubusercontent.com/93729559/166106264-0c7f7b5e-caf3-4cf4-989e-bf6e21147880.png)
+  
+  
+  I have seen the changes I had previously made in the GitHub – the job works as expected.
+  
+ I  have just implemented your a Continous Integration solution using Jenkins CI
+  
+  
+  
+
+  
   
   
   
