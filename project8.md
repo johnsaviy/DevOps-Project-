@@ -116,10 +116,11 @@ Try to refresh your browser page http://<Load-Balancer-Public-IP-Address-or-Publ
  receive HTTP GET requests from your LB – new records must appear in each server’s log file. 
  The number of requests to each server will be approximately the same since we set loadfactor to the same value for both servers – it means that traffic will be disctributed evenly between them.
 
-If you have configured everything correctly – your users will not even notice that their requests are served by more than one server.
-
+ 
 
 ![10](https://user-images.githubusercontent.com/93729559/166097466-9a79d1fc-a0cb-490f-8a85-e23e11872245.png)
+ 
+ If you have configured everything correctly – your users will not even notice that their requests are served by more than one server.
  
  
  - I have just implemented a Load balancing Web Solution for a DevOps team!!
