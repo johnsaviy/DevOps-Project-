@@ -38,3 +38,48 @@ This project consists of two parts:
 
 ![nginx_lb](https://user-images.githubusercontent.com/93729559/166106787-da4fa8c2-9a9b-464d-b1eb-c6a3b396b279.png)
 
+
+<br>
+
+#### Step 1 - CONFIGURE NGINX AS A LOAD BALANCER
+
+- Create an EC2 VM based on Ubuntu Server 20.04 LTS and name it Nginx LB (open TCP port 80 for HTTP connections, also open TCP port 443 – this port is used for secured HTTPS connections)
+
+
+- Update /etc/hosts file for local DNS with Web Servers’ names (e.g. Web1 and Web2) and their local IP addresses
+
+
+- Install and configure Nginx as a load balancer to point traffic to the resolvable DNS names of the webservers
+
+- Update the instance and Install Nginx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
