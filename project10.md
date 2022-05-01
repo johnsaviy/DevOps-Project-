@@ -53,6 +53,31 @@ This project consists of two parts:
 
 - Update the instance and Install Nginx
 
+![1](https://user-images.githubusercontent.com/93729559/166130439-8c606740-c406-452b-9998-a13da13d2885.png)
+
+
+
+- Start Enable and Check status of Nginx
+ 
+![2](https://user-images.githubusercontent.com/93729559/166130504-dd5029f7-9f80-41c2-b09f-49be1c4a28e4.png)
+
+
+- Configure Nginx LB using Web Servers’ names defined in /etc/hosts
+
+![3](https://user-images.githubusercontent.com/93729559/166130729-9e066ae5-f3cf-4fcc-b01b-afc10616ee97.png)
+
+![4](https://user-images.githubusercontent.com/93729559/166130730-617d302c-aee0-48d5-82cc-4d6b61238d2c.png)
+
+![5](https://user-images.githubusercontent.com/93729559/166130731-6d32bf38-6eed-448f-a044-49f0263fd88a.png)
+
+
+
+-Restart Nginx and make sure the service is up and running
+
+![6](https://user-images.githubusercontent.com/93729559/166130733-612430eb-d116-46ab-ac37-a9a0cafc4944.png)
+
+
+
 
 
 
