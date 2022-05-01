@@ -98,7 +98,60 @@ This project consists of two parts:
 
 
 
-Check that your Web Servers can be reached from your browser using new domain name using HTTP protocol – http://<your-domain-name.com>
+- Updated the nginx.conf with my domain name
+
+![3](https://user-images.githubusercontent.com/93729559/166131189-e4369a58-14d4-45a3-9f2f-6b9c9a34f855.png)
+
+
+
+- Checking that the Web Servers can be reached from the browser using new domain name using HTTP protocol – http://<your-domain-name.com>
+
+
+![12](https://user-images.githubusercontent.com/93729559/166131247-bdda09b1-3224-45ad-bb4a-fa7300af60f2.png)
+
+
+
+- Install certbot and request for an SSL/TLS certificate
+
+![13](https://user-images.githubusercontent.com/93729559/166131412-0c871817-f88f-4001-a417-771515b209ca.png)
+
+![14](https://user-images.githubusercontent.com/93729559/166131413-db29b7a0-e243-44a3-ae12-72bf06738e29.png)
+
+![15](https://user-images.githubusercontent.com/93729559/166131416-be18e6c2-3009-4ea4-a65b-f6d68c6cb4a3.png)
+
+
+<br>
+
+
+- Request your certificate
+
+![16](https://user-images.githubusercontent.com/93729559/166131634-f26374bb-7c14-4a07-84f5-8087ca5a960e.png)
+![17](https://user-images.githubusercontent.com/93729559/166131636-f8f073e9-242a-47af-a6ab-9557e0d6b52f.png)
+![18](https://user-images.githubusercontent.com/93729559/166131637-3d48dff3-a21e-4222-98de-198fa797bec3.png)
+![19](https://user-images.githubusercontent.com/93729559/166131639-9d831deb-3d9c-4f2d-80c7-1177048a1479.png)
+
+<br>
+
+- Test secured access to the Web Solution by reaching the domain name on the browser.
+
+![20](https://user-images.githubusercontent.com/93729559/166131640-9d218307-ac84-4aa7-ba09-4e175eb8d43e.png)
+
+
+<br>
+
+- Best pracice is to have a scheduled job that renew command periodically. Let us configure a cronjob.
+
+![21](https://user-images.githubusercontent.com/93729559/166131872-c7f69739-b6a0-4ca9-ba41-9e636e1d3ec7.png)
+![22](https://user-images.githubusercontent.com/93729559/166131874-b31d7415-c81b-4670-950b-86f5b6038a27.png)
+
+![23](https://user-images.githubusercontent.com/93729559/166131877-24eea1bd-6562-44c8-ae0c-c6a12be75737.png)
+
+
+
+
+#### I have just implemented an Nginx Load Balancing Web Solution with secured HTTPS connection with periodically updated SSL/TLS certificates.
+
+
 
 
 
