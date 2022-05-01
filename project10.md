@@ -72,9 +72,36 @@ This project consists of two parts:
 
 
 
--Restart Nginx and make sure the service is up and running
+-Reloading Nginx
 
 ![6](https://user-images.githubusercontent.com/93729559/166130733-612430eb-d116-46ab-ac37-a9a0cafc4944.png)
+
+
+<br>
+
+
+#### Step 2 - REGISTER A NEW DOMAIN NAME AND CONFIGURE SECURED CONNECTION USING SSL/TLS CERTIFICATES
+
+
+- Register a new domain name , Assign an Elastic IP to your Nginx LB server and associate your domain name with this Elastic IP
+- Update A record in your registrar to point to Nginx LB using Elastic IP address
+
+![7](https://user-images.githubusercontent.com/93729559/166131087-00ca34ec-9e4a-4f24-969f-49af78ea8816.png)
+
+![8](https://user-images.githubusercontent.com/93729559/166131088-a469c1b3-3f79-424c-b67f-ad63552bb48e.png)
+
+![9](https://user-images.githubusercontent.com/93729559/166131090-593e1096-fde6-4cdd-960a-34126c9fb5c1.png)
+
+![10](https://user-images.githubusercontent.com/93729559/166131091-2551d846-e7c2-4708-a21c-a02b12698a79.png)
+
+![11](https://user-images.githubusercontent.com/93729559/166131092-ff462ff8-93cb-4c3a-a610-595bc64014c0.png)
+
+
+
+Check that your Web Servers can be reached from your browser using new domain name using HTTP protocol – http://<your-domain-name.com>
+
+
+
 
 
 
