@@ -70,6 +70,41 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 ![4](https://user-images.githubusercontent.com/93729559/167869902-10edddbe-b785-46ab-b858-04b0a1f73102.png)
 
 
+<br>
+
+ ### - BEGIN ANSIBLE DEVELOPMENT.
+ 
+In the ansible-config-mgt GitHub repository, create a new branch that will be used for development of a new feature.
+
+
+![5](https://user-images.githubusercontent.com/93729559/167873253-757ebbe1-3fe7-4192-b7fa-e0e22dff3f97.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
