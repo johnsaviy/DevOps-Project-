@@ -72,7 +72,7 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 
 <br>
 
- ### - BEGIN ANSIBLE DEVELOPMENT.
+ ### Step 3 - BEGIN ANSIBLE DEVELOPMENT.
  
 - In the ansible-config-mgt GitHub repository, create a new branch that will be used for development of a new feature.
 
@@ -98,9 +98,12 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 <br>
 
 
+### Step 4 – Set up an Ansible Inventory
 
 
+An Ansible inventory file defines the hosts and groups of hosts upon which commands, modules, and tasks in a playbook operate. Since our intention is to execute Linux commands on remote hosts, and ensure that it is the intended configuration on a particular server that occurs. It is important to have a way to organize our hosts in such an Inventory.
 
+Save below inventory structure in the inventory/dev file to start configuring your development servers. Ensure to replace the IP addresses according to your own setup.
 
 
 
