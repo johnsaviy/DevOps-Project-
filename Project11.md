@@ -20,3 +20,30 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 - Install and configure Ansible client to act as a Jump Server/Bastion Host
 - Create a simple Ansible playbook to automate servers configuration
 
+<br>
+
+
+### INSTALL AND CONFIGURE ANSIBLE ON EC2 INSTANCE.
+
+- Update Name tag on your Jenkins EC2 Instance to Jenkins-Ansible. We will use this server to run playbooks.
+
+
+![1](https://user-images.githubusercontent.com/93729559/167857180-ca5f9506-5839-4c91-9cc7-e2b70de191da.png)
+<br>
+
+
+- create a new repository in github and name it ansible-config-mgt.
+<br>
+
+- Instal Ansible
+
+![2](https://user-images.githubusercontent.com/93729559/167858279-14bd224a-e986-424d-a6d7-5210f77149cb.png)
+
+![2a](https://user-images.githubusercontent.com/93729559/167858577-bce7adc7-9b35-4645-b0b3-e0e9fc2554bb.png)
+
+
+<br>
+
+
+
+
