@@ -90,6 +90,15 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 - Within the playbooks folder, create your first playbook, and name it common.yml
 
 - Within the inventory folder, create an inventory file (.yml) for each environment (Development, Staging Testing and Production) dev, staging, uat, and prod respectively.
+- 
+
+![6](https://user-images.githubusercontent.com/93729559/167875537-a0acbe6f-59f0-47f4-b4ba-f1609af8754b.png)
+
+
+<br>
+
+
+
 
 
 
