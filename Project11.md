@@ -56,4 +56,6 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 - Test your setup by making some change in README.MD file in master branch and make sure that builds starts automatically and Jenkins saves the files (build artifacts) in following folder
 
 
+![3](https://user-images.githubusercontent.com/93729559/167868404-844d607d-6a84-4987-a4c5-6bb41d577bc2.png)
 
+![3a](https://user-images.githubusercontent.com/93729559/167864376-c69eecdd-3336-47cc-b41a-b5a862a244c1.png)
