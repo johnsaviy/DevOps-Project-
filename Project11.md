@@ -64,5 +64,12 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 
 ###  Step 2 – Prepare your development environment using Visual Studio Code
 
+- Clone down your ansible-config-mgt repo to your Jenkins-Ansible instance
+
+
+![4](https://user-images.githubusercontent.com/93729559/167869902-10edddbe-b785-46ab-b858-04b0a1f73102.png)
+
+
+
 
 
