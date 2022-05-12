@@ -103,7 +103,13 @@ On the diagram below the Virtual Private Network (VPC) is divided into two subne
 
 An Ansible inventory file defines the hosts and groups of hosts upon which commands, modules, and tasks in a playbook operate. Since our intention is to execute Linux commands on remote hosts, and ensure that it is the intended configuration on a particular server that occurs. It is important to have a way to organize our hosts in such an Inventory.
 
-Save below inventory structure in the inventory/dev file to start configuring your development servers. Ensure to replace the IP addresses according to your own setup.
+Save below inventory structure in the inventory/dev file to start configuring your development servers. 
+
+
+![7](https://user-images.githubusercontent.com/93729559/168103821-1977a0c7-f21d-4669-a116-922ffc926baf.png)
+
+
+
 
 
 
