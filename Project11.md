@@ -123,6 +123,9 @@ In common.yml playbook I'll write configuration for repeatable, re-usable, and m
 
 
 
+### Step 6 – Update GIT with the latest code
+
+![9](https://user-images.githubusercontent.com/93729559/168113467-6fff48a0-03b2-44fc-9c9e-7a0bbf30e871.png)
 
 
 
