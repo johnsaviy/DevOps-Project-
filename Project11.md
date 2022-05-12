@@ -108,10 +108,18 @@ Save below inventory structure in the inventory/dev file to start configuring yo
 
 ![7](https://user-images.githubusercontent.com/93729559/168103821-1977a0c7-f21d-4669-a116-922ffc926baf.png)
 
+<br>
 
 
+### Step 5 – Create a Common Playbook
 
+It is time to start giving Ansible the instructions on what it needs to perform on all servers listed in inventory/dev.
 
+In common.yml playbook I'll write configuration for repeatable, re-usable, and multi-machine tasks that is common to systems within the infrastructure.
+
+- Updating the playbooks/common.yml file with following code:
+
+![8](https://user-images.githubusercontent.com/93729559/168106721-2c3282d9-ee22-4362-896d-1c8c8da4a882.png)
 
 
 
