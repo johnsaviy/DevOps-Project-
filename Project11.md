@@ -136,7 +136,9 @@ In common.yml playbook I'll write configuration for repeatable, re-usable, and m
 
 <br>
 
+### Step 7 – Run first Ansible test
 
+Now, it is time to execute ansible-playbook command and verify if the playbook actually works:
 
 
 
