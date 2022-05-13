@@ -38,3 +38,32 @@ introducing a new Jenkins project/job – we will require Copy Artifact plugin.
 ![6](https://user-images.githubusercontent.com/93729559/168284880-3a75a5a7-bbc6-4a71-ad08-58d1f259e535.png)
 
 
+<br>
+
+### Step 2 – Refactor Ansible code by importing other playbooks into site.yml
+
+Before starting to refactor the codes, ensure that you have pulled down the latest code from main branch, and created a new branch, name it refactor.
+
+DevOps philosophy implies constant iterative improvement for better efficiency – refactoring is one of the techniques that can be used, but you always have an answer to question "why?". Why do we need to change something if it works well?
+
+In Project 11 I wrote all tasks in a single playbook common.yml, now it is pretty simple set of instructions for only 2 types of OS, but imagine you have many more tasks and you need to apply this playbook to other servers with different requirements. In this case, you will have to read through the whole playbook to check if all tasks written there are applicable and is there anything that you need to add for certain server/OS families. Very fast it will become a tedious exercise and your playbook will become messy with many commented parts. Your DevOps colleagues will not appreciate such organization of your codes and it will be difficult for them to use your playbook.
+
+Most Ansible users learn the one-file approach first. However, breaking tasks up into different files is an excellent way to organize complex sets of tasks and reuse them.
+
+Let see code re-use in action by importing other playbooks.
+
+- Within playbooks folder, create a new file and name it site.yml – 
+This file will now be considered as an entry point into the entire infrastructure configuration. Other playbooks will be included here as a reference. In other words, site.yml will become a parent to all other playbooks that will be developed. Including common.yml that I created previously. 
+
+
+- Create a new folder in root of the repository and name it static-assignments. 
+The static-assignments folder is where all other children playbooks will be stored. This is merely for easy organization of your work. It is not an Ansible specific concept, therefore you can choose how you want to organize your work. 
+
+- Move common.yml file into the newly created static-assignments folder.
+
+- Inside site.yml file, import common.yml playbook.
+
+![7](https://user-images.githubusercontent.com/93729559/168287877-7072f00f-726f-45c4-80f1-d4129eaee09f.png)
+
+
+
