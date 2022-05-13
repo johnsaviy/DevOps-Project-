@@ -65,5 +65,40 @@ The static-assignments folder is where all other children playbooks will be stor
 
 ![7](https://user-images.githubusercontent.com/93729559/168287877-7072f00f-726f-45c4-80f1-d4129eaee09f.png)
 
+<br>
+
+
+
+- Run ansible-playbook command against the dev environment.
+
+Since I need to apply some tasks to the dev servers and wireshark is already installed – I can go ahead and create another playbook under static-assignments and name it common-del.yml. In this playbook, I'll configure deletion of wireshark utility.
+
+
+![8](https://user-images.githubusercontent.com/93729559/168289699-311e8ef8-8978-4442-aa53-76ce441e7a08.png)
+
+
+
+- update site.yml with - import_playbook: ../static-assignments/common-del.yml instead of common.yml and run it against dev servers:
+
+
+![9](https://user-images.githubusercontent.com/93729559/168289694-efe637f1-8c7a-4dc3-a9bd-7e70f9ad8b14.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
