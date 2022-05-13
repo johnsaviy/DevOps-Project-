@@ -22,6 +22,19 @@ introducing a new Jenkins project/job – we will require Copy Artifact plugin.
 - Change permissions to this directory, so Jenkins could save files there –
 
 ![1](https://user-images.githubusercontent.com/93729559/168260745-469d2b05-e820-4064-a01a-a3d9d5e6c23b.png)
+<br>
+
+- Install  Copy Artifact plugin in the Jenkins web console, configure it and test your set up by making some change in README.MD file inside your ansible-config-mgt repository (right inside master branch).
 
 
-- Install  Copy Artifact plugin in the Jenkins web console.
+![2](https://user-images.githubusercontent.com/93729559/168284866-dc5761e9-e2e2-4e29-bac7-1cc71cdd391a.png)
+
+![3](https://user-images.githubusercontent.com/93729559/168284871-2130c389-21d1-4b4f-a12d-d1116ab640ff.png)
+
+![4](https://user-images.githubusercontent.com/93729559/168284873-f60a25a1-32dc-420a-a59d-789ed3c729b3.png)
+
+![5](https://user-images.githubusercontent.com/93729559/168284875-63226d6e-2ad7-4854-bdd8-3a625e414a22.png)
+
+![6](https://user-images.githubusercontent.com/93729559/168284880-3a75a5a7-bbc6-4a71-ad08-58d1f259e535.png)
+
+
