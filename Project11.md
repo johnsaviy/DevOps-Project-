@@ -140,6 +140,17 @@ In common.yml playbook I'll write configuration for repeatable, re-usable, and m
 
 Now, it is time to execute ansible-playbook command and verify if the playbook actually works:
 
+![11](https://user-images.githubusercontent.com/93729559/168253473-8658c71e-46e9-419b-bd82-5321c07df03f.png)
+
+
+<br>
+
+
+- Confirming if wireshark has been installed.
+
+![12](https://user-images.githubusercontent.com/93729559/168253479-dd904475-7228-41ff-87fa-29ce09a6d525.png)
+
+
 
 
 
