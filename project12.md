@@ -15,3 +15,13 @@ when we want to run some commands from one place.
 
 Besides, it consumes space on Jenkins server with each subsequent change. Let us enhance it by
 introducing a new Jenkins project/job – we will require Copy Artifact plugin.
+
+
+- Go to Jenkins-Ansible server and create a new directory called ansible-config-artifact – we will store there all artifacts after each build.
+
+- Change permissions to this directory, so Jenkins could save files there –
+
+![1](https://user-images.githubusercontent.com/93729559/168260745-469d2b05-e820-4064-a01a-a3d9d5e6c23b.png)
+
+
+- Install  Copy Artifact plugin in the Jenkins web console.
