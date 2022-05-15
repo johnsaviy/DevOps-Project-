@@ -107,6 +107,10 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 - Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of the 2 UAT Web servers.
 
 
+![12](https://user-images.githubusercontent.com/93729559/168471477-3f5f22f1-c79e-49e7-8450-2e752f72a267.png)
+
+
+
 
 
 
