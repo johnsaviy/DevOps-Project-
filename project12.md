@@ -168,6 +168,11 @@ Commit your changes, create a Pull Request and merge them to master branch, make
 - Now run the playbook against your uat inventory and see what happens:
 
 
+![17](https://user-images.githubusercontent.com/93729559/168476761-509662ba-7b51-47b9-b6e9-e99d2da8a749.png)
+
+
+<br>
+
 
 You should be able to see both of your UAT Web servers configured and you can try to reach them from your browser:
 
@@ -176,7 +181,10 @@ http://<Web1-UAT-Server-Public-IP-or-Public-DNS-Name>/index.php
 or
 
 http://<Web1-UAT-Server-Public-IP-or-Public-DNS-Name>/index.php
-
+ 
+ 
+ 
+![18](https://user-images.githubusercontent.com/93729559/168476763-d2f13b25-4b08-460b-b0bd-789e48cf5fe7.png)
 
 
 
