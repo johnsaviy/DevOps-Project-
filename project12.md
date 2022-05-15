@@ -102,7 +102,7 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 ![11](https://user-images.githubusercontent.com/93729559/168470848-38c24a31-7fda-4c2f-8cc2-4304278be963.png)
 
 
-
+<br>
 
 - Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of the 2 UAT Web servers.
 
@@ -110,6 +110,11 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 ![12](https://user-images.githubusercontent.com/93729559/168471477-3f5f22f1-c79e-49e7-8450-2e752f72a267.png)
 
 
+
+
+<br>
+
+- In /etc/ansible/ansible.cfg file uncomment roles_path string and provide a full path to your roles directory roles_path    = /home/ubuntu/ansible-config-mgt/roles, so Ansible could know where to find configured roles.
 
 
 
