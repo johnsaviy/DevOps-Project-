@@ -114,7 +114,10 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 
 <br>
 
-- In /etc/ansible/ansible.cfg file uncomment roles_path string and provide a full path to your roles directory roles_path    = /home/ubuntu/ansible-config-mgt/roles, so Ansible could know where to find configured roles.
+- In /etc/ansible/ansible.cfg file uncomment roles_path string and provide a full path to your roles directory roles_path    = /home/ubuntu/ansible-config-artifact/roles, so Ansible could know where to find configured roles.
+
+
+![13](https://user-images.githubusercontent.com/93729559/168472037-d1e247c5-1958-4e64-a7ec-339884cc1918.png)
 
 
 
