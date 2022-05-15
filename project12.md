@@ -158,6 +158,25 @@ So, we should have this in site.yml
 ![15](https://user-images.githubusercontent.com/93729559/168473000-f46dc9b2-ffc1-41a4-b219-6f617d7abd8e.png)
 
 
+<br>
+
+
+### Step 5 – Commit & Test.
+
+Commit your changes, create a Pull Request and merge them to master branch, make sure webhook triggered two consequent Jenkins jobs, they ran successfully and copied all the files to the Jenkins-Ansible server into /home/ubuntu/ansible-config-mgt/ directory.
+
+- Now run the playbook against your uat inventory and see what happens:
+
+
+
+You should be able to see both of your UAT Web servers configured and you can try to reach them from your browser:
+
+http://<Web1-UAT-Server-Public-IP-or-Public-DNS-Name>/index.php
+
+or
+
+http://<Web1-UAT-Server-Public-IP-or-Public-DNS-Name>/index.php
+
 
 
 
