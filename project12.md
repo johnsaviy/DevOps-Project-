@@ -119,7 +119,20 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 
 ![13](https://user-images.githubusercontent.com/93729559/168472037-d1e247c5-1958-4e64-a7ec-339884cc1918.png)
 
+<br>
+<br>
 
+- Now lets addi some logic to the webserver role. 
+
+- Go into tasks directory, and within the main.yml file, start writing configuration tasks to do the following:
+
+- Install and configure Apache (httpd service)
+ 
+- Clone Tooling website from GitHub https://github.com/<your-name>/tooling.git.
+- Ensure the tooling website code is deployed to /var/www/html on each of 2 UAT Web servers.
+- Make sure httpd service is started.
+  
+  
 
 
 
