@@ -99,8 +99,34 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 - To create a role, you must create a directory called roles/, relative to the playbook file or in /etc/ansible/ directory.
 
 
+![11](https://user-images.githubusercontent.com/93729559/168470848-38c24a31-7fda-4c2f-8cc2-4304278be963.png)
 
-- Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2 UAT Web servers
+
+
+
+- Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of the 2 UAT Web servers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
