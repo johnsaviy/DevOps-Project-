@@ -138,7 +138,24 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 ![14](https://user-images.githubusercontent.com/93729559/168472626-aef263cc-f950-44ba-b5f0-92c7fccce96d.png)
 
 
+<br>
+<br>
 
+### Step 4 – Reference ‘Webserver’ role.
+
+- Within the static-assignments folder, create a new assignment for uat-webservers uat-webservers.yml. This is where you will reference the role.
+
+
+![16](https://user-images.githubusercontent.com/93729559/168473003-da3d6b6a-f1f2-4205-9ec7-4f022a47be71.png)
+
+
+<br>
+
+Remember that the entry point to our ansible configuration is the site.yml file. Therefore, you need to refer your uat-webservers.yml role inside site.yml.
+
+So, we should have this in site.yml
+
+![15](https://user-images.githubusercontent.com/93729559/168473000-f46dc9b2-ffc1-41a4-b219-6f617d7abd8e.png)
 
 
 
