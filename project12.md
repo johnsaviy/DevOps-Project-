@@ -89,9 +89,18 @@ Since I need to apply some tasks to the dev servers and wireshark is already ins
 
 
 
+### Step 3 – Configure UAT Webservers with a role ‘Webserver’
+
+
+- Launch 2 fresh EC2 instances using RHEL 8 image, we will use them as our uat servers, so give them names accordingly – Web1-UAT and Web2-UAT.
 
 
 
+- To create a role, you must create a directory called roles/, relative to the playbook file or in /etc/ansible/ directory.
+
+
+
+- Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2 UAT Web servers
 
 
 
