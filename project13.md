@@ -19,3 +19,25 @@ On the other hand, when include module is used, all statements are processed onl
 
 Take note that in most cases it is recommended to use static assignments for playbooks, because it is more reliable. With dynamic ones, it is hard to debug playbook problems due to its dynamic nature. However, you can use dynamic assignments for environment specific variables as we will be introducing in this project.
 
+
+### Introducing Dynamic Assignment Into Our structure
+
+
+In the ansible-config-mgt GitHub repository I'll start a new branch and call it dynamic-assignments.
+
+- Create a new folder, name it dynamic-assignments. Then inside this folder, create a new file and name it env-vars.yml. I'll instruct site.yml to include this playbook later. For now, let us keep building up the structure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
