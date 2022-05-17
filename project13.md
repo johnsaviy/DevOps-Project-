@@ -50,6 +50,55 @@ In the same version, variants of import were also introduces, such as: import_ro
 
 
 
+<br>
+
+- Update site.yml with dynamic assignments.
+
+ Update site.yml file to make use of the dynamic assignment.
+ 
+ ### pic3
+ 
+ <br>
+ 
+- Community Roles.
+
+Now it is time to create a role for MySQL database – it should install the MySQL package, create a database and configure users.
+
+- Download Mysql Ansible Role
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
