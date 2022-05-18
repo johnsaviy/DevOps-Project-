@@ -84,6 +84,18 @@ I will be using a MySQL role developed by geerlingguy.
 
 
 
+- Load Balancer roles.
+
+We want to be able to choose which Load Balancer to use, Nginx or Apache, so we need to have two roles respectively: Nginx, Apache.
+
+Update both assignment and site.yml files respectively.
+
+
+![6](https://user-images.githubusercontent.com/93729559/169015386-93c03ba0-c05d-46fb-a363-831a9f112e10.png)
+
+
+
+
 
 
 
