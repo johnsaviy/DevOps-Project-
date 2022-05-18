@@ -72,8 +72,15 @@ In the same version, variants of import were also introduces, such as: import_ro
 Now it is time to create a role for MySQL database – it should install the MySQL package, create a database and configure users.
 
 - Download Mysql Ansible Role
+
+With Ansible Galaxy, we can simply download a ready to use Mysql ansible role, and keep going.
+
+I will be using a MySQL role developed by geerlingguy.
+
+- Inside roles directory create your new MySQL role with ansible-galaxy install geerlingguy.mysql and rename the folder to mysql
  
  
+![4](https://user-images.githubusercontent.com/93729559/168995140-d510f833-6aca-42c3-98ca-d6a91f2d3058.png)
 
 
 
