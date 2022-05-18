@@ -28,7 +28,7 @@ Take note that in most cases it is recommended to use static assignments for pla
 - Create a new folder, name it dynamic-assignments. Then inside this folder, create a new file and name it env-vars.yml. I'll instruct site.yml to include this playbook later. For now, let us keep building up the structure.
 
 
-## pic
+![1](https://user-images.githubusercontent.com/93729559/168986922-7987cfad-35a3-4cb5-a5bd-05ce97285607.png)
 
 
 - Since we will be using the same Ansible to configure multiple environments, and each of these environments will have certain unique attributes, such as servername, ip-address etc., we will need a way to set values to variables per specific environment.
@@ -36,7 +36,10 @@ Take note that in most cases it is recommended to use static assignments for pla
 - For this reason, we will now create a folder to keep each environment’s variables file. Therefore, create a new folder env-vars, then for each environment, create new YAML files which we will use to set variables and include the instruction below into the env-vars.yml file.
 
 
-## pic2
+
+![2](https://user-images.githubusercontent.com/93729559/168986934-985b8ed5-4842-4235-9212-b078d94eccd7.png)
+<br>
+
 
 - Notice 3 things to note here:
 
