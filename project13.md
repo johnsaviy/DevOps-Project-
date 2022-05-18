@@ -59,7 +59,11 @@ In the same version, variants of import were also introduces, such as: import_ro
 
  Update site.yml file to make use of the dynamic assignment.
  
- ### pic3
+ 
+ ![3](https://user-images.githubusercontent.com/93729559/168990113-2efaf789-5832-4429-ae22-ef9b997c82df.png)
+
+
+
  
  <br>
  
