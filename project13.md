@@ -95,6 +95,12 @@ Update both assignment and site.yml files respectively.
 
 
 
+Now you can make use of env-vars\uat.yml file to define which loadbalancer to use in UAT environment by setting respective environmental variable to true.
+
+You will activate load balancer, and enable nginx by setting these in the respective environment’s env-vars file.
+
+
+![7](https://user-images.githubusercontent.com/93729559/169294898-7b4a34cd-b8bc-41fa-b582-e9a49b062a46.png)
 
 
 
