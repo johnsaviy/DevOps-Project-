@@ -23,6 +23,22 @@ What we want to achieve, is having Nginx to serve as a reverse proxy for our sit
 
 <br>
 
+
+- ANSIBLE ROLES FOR CI ENVIRONMENT.
+
+Now I'll go ahead and Add two more roles to ansible:
+
+- SonarQube 
+
+- Artifactory
+
+
+Why do we need SonarQube?
+
+SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality, it is used to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
+
+Why do we need Artifactory?
+Artifactory is a product by JFrog that serves as a binary repository manager. The binary repository is a natural extension to the source code repository, in that the outcome of your build process is stored. It can be used for certain other automation, but we will it strictly to manage our build artifacts.
 																							 
 																							 
 																							 
