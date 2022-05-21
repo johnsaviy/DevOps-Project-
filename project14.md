@@ -96,6 +96,14 @@ Back to the pipeline again, this time click "Build now"
 
  Let us get the actual Ansible deployment to work by: Installing Ansible on Jenkins, Installing Ansible plugin in Jenkins UI and Creating Jenkinsfile from scratch. 
 
+
+- Jenkins needs to export the ANSIBLE_CONFIG environment variable. You can put the .ansible.cfg file alongside Jenkinsfile in the deploy directory. This way, anyone can easily identify that everything in there relates to deployment. Then, using the Pipeline Syntax tool in Ansible, generate the syntax to create environment variables to set.
+
+
+![5](https://user-images.githubusercontent.com/93729559/169650069-6ddeb5d9-2b47-4539-abc9-5c549d569929.png)
+
+
+
 - Parameterizing Jenkinsfile For Ansible Deployment.
 
 - To deploy to other environments, we will need to use parameters.
