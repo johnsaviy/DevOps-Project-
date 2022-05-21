@@ -109,6 +109,12 @@ Back to the pipeline again, this time click "Build now"
 ![6](https://user-images.githubusercontent.com/93729559/169650816-1c7dfe7a-c3e4-4c72-8e38-783634870415.png)
 
 
+- Configure pipeline syntax and generate pipeline script.
+
+![7](https://user-images.githubusercontent.com/93729559/169650930-f818b984-28ca-4124-bb84-954e75f8fc33.png)
+
+
+
 
 
 - Parameterizing Jenkinsfile For Ansible Deployment.
