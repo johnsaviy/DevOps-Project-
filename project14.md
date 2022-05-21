@@ -156,13 +156,20 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 - Phase 1 – Prepare Jenkins
 
 - Fork the todo -app repository from https://github.com/darey-devops/php-todo.git
-- 
+ 
 
 ![11](https://user-images.githubusercontent.com/93729559/169652688-0a9820b6-769c-4146-be33-cf7fc7c9951b.png)
 
-
+<br>
 
 - On you Jenkins server, install PHP, its dependencies and Composer tool 
+
+![12](https://user-images.githubusercontent.com/93729559/169652881-1565a638-290d-462f-b00b-fdaf2089615b.png)
+
+
+![13](https://user-images.githubusercontent.com/93729559/169652983-1fbf2fd0-00d8-4f5b-b636-832f815c98ff.png)
+
+
 
 
 
