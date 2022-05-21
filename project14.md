@@ -123,12 +123,20 @@ Back to the pipeline again, this time click "Build now"
 
 
 
+
+
+
 - Parameterizing Jenkinsfile For Ansible Deployment.
 
 - To deploy to other environments, we will need to use parameters.
 
 
 - Update sit inventory with new servers.
+
+- Update Jenkinsfile to introduce parameterization. Below is just one parameter. It has a default value in case if no value is specified at execution. It also has a description so that everyone is aware of its purpose
+
+
+![9](https://user-images.githubusercontent.com/93729559/169651444-6a5175ee-8af9-482c-aed2-28ea1ae4b792.png)
 
 
 
