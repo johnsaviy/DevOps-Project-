@@ -103,6 +103,13 @@ Back to the pipeline again, this time click "Build now"
 ![5](https://user-images.githubusercontent.com/93729559/169650069-6ddeb5d9-2b47-4539-abc9-5c549d569929.png)
 
 
+- in Global tool configuration, configure Ansible as below:
+
+
+![6](https://user-images.githubusercontent.com/93729559/169650816-1c7dfe7a-c3e4-4c72-8e38-783634870415.png)
+
+
+
 
 - Parameterizing Jenkinsfile For Ansible Deployment.
 
