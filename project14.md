@@ -182,12 +182,16 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 <br>
 
-= Artifactory plugin
+- Artifactory plugin
+
+![15](https://user-images.githubusercontent.com/93729559/169653266-91c59b78-12b5-44c7-8e8e-f5acf1630347.png)
+
+<br>
 
 
 
-We will use plot plugin to display tests reports, and code coverage information.
-The Artifactory plugin will be used to easily upload code artifacts into an Artifactory server.
+- We will use plot plugin to display tests reports, and code coverage information.
+- The Artifactory plugin will be used to easily upload code artifacts into an Artifactory server.
 
 
 
