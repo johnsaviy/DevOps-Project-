@@ -114,6 +114,12 @@ Back to the pipeline again, this time click "Build now"
 ![7](https://user-images.githubusercontent.com/93729559/169650930-f818b984-28ca-4124-bb84-954e75f8fc33.png)
 
 
+- update pipeline script in jenkins file for running ansible playbook.
+
+![8](https://user-images.githubusercontent.com/93729559/169651056-59126278-089a-4d60-8f94-9b826cbd7765.png)
+
+
+
 
 
 
