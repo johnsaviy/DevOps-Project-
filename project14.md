@@ -140,6 +140,10 @@ Back to the pipeline again, this time click "Build now"
 
 
 
+- In the Ansible execution section, remove the hardcoded inventory/dev and replace with `${inventory}
+From now on, each time you hit on execute, it will expect an input.
+
+![10](https://user-images.githubusercontent.com/93729559/169651654-b17eb1b8-aff9-4fc5-b5eb-bafa15572f7c.png)
 
 
 
