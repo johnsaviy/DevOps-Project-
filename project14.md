@@ -195,7 +195,9 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 
 
+- In Jenkins UI configure Artifactory
 
+2:04
 
 
 
