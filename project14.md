@@ -91,6 +91,31 @@ Back to the pipeline again, this time click "Build now"
 
 
 
+### RUNNING ANSIBLE PLAYBOOK FROM JENKINS
+
+
+ Let us get the actual Ansible deployment to work by: Installing Ansible on Jenkins, Installing Ansible plugin in Jenkins UI and Creating Jenkinsfile from scratch. 
+
+- Parameterizing Jenkinsfile For Ansible Deployment.
+
+- To deploy to other environments, we will need to use parameters.
+
+
+- Update sit inventory with new servers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
