@@ -39,6 +39,50 @@ SonarQube is an open-source platform developed by SonarSource for continuous ins
 
 Why do we need Artifactory?
 Artifactory is a product by JFrog that serves as a binary repository manager. The binary repository is a natural extension to the source code repository, in that the outcome of your build process is stored. It can be used for certain other automation, but we will it strictly to manage our build artifacts.
+
+
+- Configuring Ansible For Jenkins Deployment.
+- 
+In previous projects, I have been launching Ansible commands manually from a CLI. Now, with Jenkins, I will start running Ansible from Jenkins UI.
+
+To do this,
+
+- Navigate to Jenkins URL
+
+- Install & Open Blue Ocean Jenkins Plugin
+
+- Create a new pipeline
+
+
+- Select GitHub
+
+
+- Connect Jenkins with GitHub
+
+
+- Login to GitHub & Generate an Access Token
+
+- Copy and Paste the token to the pipeline and connect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 																							 
 																							 
 																							 
