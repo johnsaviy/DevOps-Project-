@@ -147,6 +147,38 @@ From now on, each time you hit on execute, it will expect an input.
 
 
 
+ ### CI/CD PIPELINE FOR TODO APPLICATION.
+
+We already have tooling website as a part of deployment through Ansible. Here we will introduce another PHP application to add to the list of software products we are managing in our infrastructure. The good thing with this particular application is that it has unit tests, and it is an ideal application to show an end-to-end CI/CD pipeline for a particular application.
+
+Our goal here is to deploy the application onto servers directly from Artifactory rather than from git.
+
+- Phase 1 – Prepare Jenkins
+
+- Fork the todo -app repository from https://github.com/darey-devops/php-todo.git
+- 
+
+![11](https://user-images.githubusercontent.com/93729559/169652688-0a9820b6-769c-4146-be33-cf7fc7c9951b.png)
+
+
+
+- On you Jenkins server, install PHP, its dependencies and Composer tool 
+
+
+
+
+Install Jenkins plugins
+Plot plugin
+Artifactory plugin
+We will use plot plugin to display tests reports, and code coverage information.
+The Artifactory plugin will be used to easily upload code artifacts into an Artifactory server.
+
+
+
+
+
+
+
 
 
 
