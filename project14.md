@@ -173,10 +173,19 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 
 
+- Install Jenkins plugins
 
-Install Jenkins plugins
-Plot plugin
-Artifactory plugin
+- Plot plugin
+
+![14](https://user-images.githubusercontent.com/93729559/169653114-8cf0c627-f49c-4dc1-8fe2-99b9716a1a4a.png)
+
+
+<br>
+
+= Artifactory plugin
+
+
+
 We will use plot plugin to display tests reports, and code coverage information.
 The Artifactory plugin will be used to easily upload code artifacts into an Artifactory server.
 
