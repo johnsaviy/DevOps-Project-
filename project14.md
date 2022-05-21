@@ -84,6 +84,15 @@ To do this,
 
 
 
+Back to the pipeline again, this time click "Build now"
+
+![4](https://user-images.githubusercontent.com/93729559/169648990-37c748f2-e304-4778-a973-e8bc2916cd1f.png)
+
+
+
+
+
+
 
 
 
