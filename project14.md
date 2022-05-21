@@ -71,6 +71,16 @@ To do this,
 ![2](https://user-images.githubusercontent.com/93729559/169647785-ec83ff49-6ed9-490a-83b4-592be027726c.png)
 
 
+<br>
+
+- create a new directory deploy and start a new file Jenkinsfile inside the directory.
+
+- Now go back into the Ansible pipeline in Jenkins, and select configure.
+
+- Scroll down to Build Configuration section and specify the location of the Jenkinsfile at deploy/Jenkinsfile.
+
+
+![3](https://user-images.githubusercontent.com/93729559/169647786-e23dfe82-dcdf-4e54-ba87-931ca0d069c2.png)
 
 
 
