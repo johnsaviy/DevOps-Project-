@@ -245,6 +245,9 @@ For PHP the most commonly tool used for code quality analysis is phploc.
 
 - Add the code analysis step in Jenkinsfile. The output of the data will be saved in build/logs/phploc.csv file.
 
+![23](https://user-images.githubusercontent.com/93729559/169711545-f69d3145-d7cf-4cda-ade3-23561725dcca.png)
+
+<br>
 
 
 - Plot the data using plot Jenkins plugin.
