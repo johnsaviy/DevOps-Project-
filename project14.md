@@ -265,13 +265,22 @@ This plugin provides generic plotting (or graphing) capabilities in Jenkins. It 
 
 ![25](https://user-images.githubusercontent.com/93729559/169712239-b1b42729-8976-4801-b981-e6dcf0af7465.png)
 
+![26](https://user-images.githubusercontent.com/93729559/169712563-d1d64f59-2616-42f7-83d6-0b43ca157687.png)
+
+![27](https://user-images.githubusercontent.com/93729559/169712564-b5e1816e-0cc2-4957-ad90-6f801f9ee37b.png)
+
+
+
 
 
 <br>
 - Deploy the application to the dev environment by launching Ansible pipeline
 
+![28](https://user-images.githubusercontent.com/93729559/169712568-6e69ec62-3511-41c2-9720-41c7972104e1.png)
+
 
 <br>
+
 
 
 
