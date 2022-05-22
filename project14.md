@@ -259,13 +259,12 @@ This plugin provides generic plotting (or graphing) capabilities in Jenkins. It 
 
 
 <br>
-
-- Bundle the application code for into an artifact (archived package) upload to Artifactory
-
-
-
 <br>
-- Publish the resulted artifact into Artifactory
+
+- Bundle the application code for into an artifact (archived package) upload to Artifactory and Publish the resulted artifact into Artifactory.
+
+![25](https://user-images.githubusercontent.com/93729559/169712239-b1b42729-8976-4801-b981-e6dcf0af7465.png)
+
 
 
 <br>
