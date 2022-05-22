@@ -216,11 +216,12 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 ![18](https://user-images.githubusercontent.com/93729559/169710727-43661e43-9ba4-4402-b790-e1be37c39663.png)
 
+![21](https://user-images.githubusercontent.com/93729559/169710737-2301a7b0-544d-449e-8a7b-4225acf95bf8.png)
+
 ![19](https://user-images.githubusercontent.com/93729559/169710730-6cae5c9e-311c-48a0-b274-b77214d9ae37.png)
 
 ![20](https://user-images.githubusercontent.com/93729559/169710735-7edfff72-1077-4962-82fe-14bf659bccac.png)
 
-![21](https://user-images.githubusercontent.com/93729559/169710737-2301a7b0-544d-449e-8a7b-4225acf95bf8.png)
 
 
 
