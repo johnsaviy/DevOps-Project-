@@ -193,7 +193,7 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 - We will use plot plugin to display tests reports, and code coverage information.
 - The Artifactory plugin will be used to easily upload code artifacts into an Artifactory server.
 
-
+<br>
 
 - In Jenkins UI configure Artifactory
 
@@ -202,7 +202,15 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 <br>
 
+
 ![17](https://user-images.githubusercontent.com/93729559/169708958-f0063773-9b7a-440a-94b3-3b96666be1ad.png)
+
+<br>
+### Phase 2 – Integrate Artifactory repository with Jenkins.
+
+- Create a dummy Jenkinsfile in the repository
+- Using Blue Ocean, create a multibranch Jenkins pipeline
+- On the database server, create database and user
 
 
 
