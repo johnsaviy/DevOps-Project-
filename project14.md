@@ -197,7 +197,13 @@ Our goal here is to deploy the application onto servers directly from Artifactor
 
 - In Jenkins UI configure Artifactory
 
-2:04
+
+![16](https://user-images.githubusercontent.com/93729559/169708746-c4eef7ef-d2c6-4804-902a-2974602b897f.png)
+
+<br>
+
+![17](https://user-images.githubusercontent.com/93729559/169708958-f0063773-9b7a-440a-94b3-3b96666be1ad.png)
+
 
 
 
