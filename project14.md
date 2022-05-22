@@ -275,6 +275,7 @@ This plugin provides generic plotting (or graphing) capabilities in Jenkins. It 
 
 <br>
 - Deploy the application to the dev environment by launching Ansible pipeline
+- <br>
 
 ![28](https://user-images.githubusercontent.com/93729559/169712568-6e69ec62-3511-41c2-9720-41c7972104e1.png)
 
@@ -293,7 +294,7 @@ To achieve this, we need to configure SonarQube – An open-source platform deve
 
 
 
-
+2.58
 
 
 
