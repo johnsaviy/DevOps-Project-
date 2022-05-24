@@ -310,6 +310,27 @@ Despite that DevOps CI/CD pipeline helps with fast software delivery, it is of t
 - Install SonarQube on Ubuntu 20.04 With PostgreSQL as Backend Database.
 
 
+![30](https://user-images.githubusercontent.com/93729559/169988872-bf97621f-2b93-4452-a323-d8194325c6cf.png)
+
+![31](https://user-images.githubusercontent.com/93729559/169988878-9d3c23d7-85a0-4c14-b374-336084b0bdb0.png)
+
+<br>
+
+- Configure  SonarQube
+
+
+![32](https://user-images.githubusercontent.com/93729559/169988882-e05facc7-ab57-48d3-98fc-3534c1d42efe.png)
+
+![33](https://user-images.githubusercontent.com/93729559/169992846-ffa946a1-f9b8-44ca-af57-8dc30fee9bc1.png)
+
+![34](https://user-images.githubusercontent.com/93729559/169992860-c333e0b5-3dce-4e91-9764-15c0658ae954.png)
+
+![35](https://user-images.githubusercontent.com/93729559/169992862-7c9c58c7-da08-4d2d-a65d-3f36b0eb836a.png)
+
+<br>
+
+
+
 
 
 
