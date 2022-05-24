@@ -280,6 +280,10 @@ This plugin provides generic plotting (or graphing) capabilities in Jenkins. It 
 ![28](https://user-images.githubusercontent.com/93729559/169712568-6e69ec62-3511-41c2-9720-41c7972104e1.png)
 
 
+![29](https://user-images.githubusercontent.com/93729559/169980241-cb202e54-52a6-4d18-882d-c2150dba8e0d.png)
+
+
+
 <br>
 
 
@@ -292,9 +296,18 @@ But how are we certain that the code being deployed has the quality that meets c
 To achieve this, we need to configure SonarQube – An open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
 
 
+<br>
+
+### SONARQUBE INSTALLATION
 
 
-2.58
+SonarQube is a tool that can be used to create quality gates for software projects, and the ultimate goal is to be able to ship only quality software code.
+
+Despite that DevOps CI/CD pipeline helps with fast software delivery, it is of the same importance to ensure the quality of such delivery. Hence, we will need SonarQube to set up Quality gates. In this project we will use predefined Quality Gates (also known as The Sonar Way). Software testers and developers would normally work with project leads and architects to create custom quality gates.
+
+
+
+- Install SonarQube on Ubuntu 20.04 With PostgreSQL as Backend Database
 
 
 
