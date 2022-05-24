@@ -109,6 +109,7 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 ![19](https://user-images.githubusercontent.com/93729559/170104055-9e9d02af-b0fd-4964-bc7e-fc3a091ce375.png)
 
 
+![20](https://user-images.githubusercontent.com/93729559/170105422-3fd580ac-88b3-4e93-87df-2b4dd9cd599c.png)
 
 
 
