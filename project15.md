@@ -83,6 +83,12 @@ ers (ALB)
 ![1](https://user-images.githubusercontent.com/93729559/170098904-62a15475-5300-4113-b5bd-87cc27f60f17.png)
 
 
+### Setting up Elastic filesystem
+
+
+![16](https://user-images.githubusercontent.com/93729559/170099416-06768bad-14e9-416d-abd1-2183c8886dab.png)
+
+
 
 ### Set Up Compute Resources for Nginx
 
