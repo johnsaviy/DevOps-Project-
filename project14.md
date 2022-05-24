@@ -330,7 +330,7 @@ Despite that DevOps CI/CD pipeline helps with fast software delivery, it is of t
 <br>
 
 
-
+3.41
 
 
 
