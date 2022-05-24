@@ -97,6 +97,18 @@ Create an EFS access point. (Give it a name and leave all other settings as defa
 
 ![17](https://user-images.githubusercontent.com/93729559/170101747-029fa993-d18d-40c1-8f10-d2849a842808.png)
 
+<br>
+
+### Setup RDS
+
+Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to encrypt the database instance.
+
+![18](https://user-images.githubusercontent.com/93729559/170103025-1868f4b9-c193-4962-8d2f-27f52c177cf9.png)
+
+
+![19](https://user-images.githubusercontent.com/93729559/170104055-9e9d02af-b0fd-4964-bc7e-fc3a091ce375.png)
+
+
 
 
 
