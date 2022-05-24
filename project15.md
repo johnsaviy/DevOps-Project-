@@ -184,10 +184,12 @@ python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 
 ![23a](https://user-images.githubusercontent.com/93729559/170136106-99fdaf9b-370a-4e31-90ad-3caff475babb.png)
 
+<br>
 
-
-- Associate an Elastic IP with each of the Bastion EC2 Instances
 - Create an AMI out of the EC2 instance
+
+![32](https://user-images.githubusercontent.com/93729559/170141633-4dc0716a-11dc-48cd-88f3-aeaf93397f45.png)
+
 
 ### Prepare Launch Template For Bastion (One per subnet)
 - Make use of the AMI to set up a launch template
