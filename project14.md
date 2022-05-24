@@ -316,8 +316,11 @@ Despite that DevOps CI/CD pipeline helps with fast software delivery, it is of t
 
 <br>
 
-- Configure  SonarQube
+- CONFIGURE SONARQUBE AND JENKINS FOR QUALITY GATE.
 
+In Jenkins, install SonarScanner plugin
+
+Navigate to configure system in Jenkins. Add SonarQube server as shown below
 
 ![32](https://user-images.githubusercontent.com/93729559/169988882-e05facc7-ab57-48d3-98fc-3534c1d42efe.png)
 
