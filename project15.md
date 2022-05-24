@@ -118,16 +118,13 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Provision EC2 Instances for Nginx
 - Create an EC2 Instance based on CentOS Amazon Machine Image (AMI) in any 2 Availability Zones (AZ) in any AWS Region (it is recommended to use the Region that is closest to your customers). Use EC2 instance of T2 family (e.g. t2.micro or similar)
 
-- Ensure that it has the following software installed:
+- Ensure that it has the following software installed: python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 
-python
-ntp
-net-tools
-vim
-wget
-telnet
-epel-release
-htop
+![24](https://user-images.githubusercontent.com/93729559/170137924-14ebd555-de95-404d-91aa-86ded23d61f1.png)
+
+![25](https://user-images.githubusercontent.com/93729559/170137921-257c7743-b926-4a93-a7bd-ae3dce824acd.png)
+
+
 
 ### Create an AMI out of the EC2 instance
 
@@ -219,6 +216,12 @@ telnet,
 epel-release, 
 htop, 
 php, 
+
+
+![24](https://user-images.githubusercontent.com/93729559/170137924-14ebd555-de95-404d-91aa-86ded23d61f1.png)
+
+![25](https://user-images.githubusercontent.com/93729559/170137921-257c7743-b926-4a93-a7bd-ae3dce824acd.png)
+
 
 - Create an AMI out of the EC2 instance
 
