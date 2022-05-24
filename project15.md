@@ -244,12 +244,12 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 ![30](https://user-images.githubusercontent.com/93729559/170140907-3dd4f1d6-ee38-4175-8ab2-568e4788e6c0.png)
 
 
-
-
-
-
+<br>
 
 - Create an AMI out of the EC2 instance
+
+![31](https://user-images.githubusercontent.com/93729559/170141475-ce026b6b-6dc2-435a-8e6a-85c6cc722135.png)
+
 
 ### Prepare Launch Template For Webservers (One per subnet)
 
