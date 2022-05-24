@@ -135,10 +135,13 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 
 ![30](https://user-images.githubusercontent.com/93729559/170140907-3dd4f1d6-ee38-4175-8ab2-568e4788e6c0.png)
 
-
+<br>
 
 
 ### Create an AMI out of the EC2 instance
+
+![33](https://user-images.githubusercontent.com/93729559/170141939-753478db-2fff-4b01-831d-d0b830668944.png)
+
 
 - Prepare Launch Template For Nginx (One Per Subnet)
 - Make use of the AMI to set up a launch template
