@@ -354,7 +354,20 @@ Notice that with the current state of the code, it cannot be deployed to Integra
 
 
 
+<br>
 
+Introduce Jenkins agents/slaves – Add 2 more servers to be used as Jenkins slave. Configure Jenkins to run its pipeline jobs randomly on any available slave nodes.
+
+Configure webhook between Jenkins and GitHub to automatically run the pipeline when there is a code push.
+
+Deploy the application to all the environments
+
+
+![3](https://user-images.githubusercontent.com/93729559/170040810-a30211b8-ec38-474e-b1d5-cb92ce140916.png)
+
+![4](https://user-images.githubusercontent.com/93729559/170040814-d1904587-7c6c-4e26-ba87-674c16d152de.png)
+
+![5](https://user-images.githubusercontent.com/93729559/170040831-4dcd971d-51b9-40e2-afbe-c5217253107d.png)
 
 
 
