@@ -333,12 +333,24 @@ Navigate to configure system in Jenkins. Add SonarQube server as shown below
 <br>
 
 
-3.41
+
+The quality gate we just included has no effect. Why? Well, because if you go to the SonarQube UI, you will realise that we just pushed a poor-quality code onto the development environment.
+There are bugs, and there is 0.0% code coverage. (code coverage is a percentage of unit tests added by developers to test functions and objects in the code)
+
+
+![1 (2)](https://user-images.githubusercontent.com/93729559/170035503-8030f386-883e-4e92-a958-ff8d62c95559.png)
+
+<br>
+
+![2](https://user-images.githubusercontent.com/93729559/170035023-66b0cf16-1353-46aa-8efe-d6685215f084.png)
 
 
 
 
+In the development environment, this is acceptable as developers will need to keep iterating over their code towards perfection. But as a DevOps engineer working on the pipeline, we must ensure that the quality gate step causes the pipeline to fail if the conditions for quality are not met.
 
+
+Notice that with the current state of the code, it cannot be deployed to Integration environments due to its quality. In the real world, DevOps engineers will push this back to developers to work on the code further, based on SonarQube quality report. Once everything is good with code quality, the pipeline will pass and proceed with sipping the codes further to a higher environment.
 
 
 
