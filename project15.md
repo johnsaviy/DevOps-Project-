@@ -85,8 +85,18 @@ ers (ALB)
 
 ### Setting up Elastic filesystem
 
+Amazon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic Network File System (NFS) for use with AWS Cloud services and on-premises resources. In this project, I will utulize EFS service and mount filesystems on both Nginx and Webservers to store data.
+
+Create an EFS filesystem
+Create an EFS mount target per AZ in the VPC, associate it with both subnets dedicated for data layer
+Associate the Security groups created earlier for data layer.
+Create an EFS access point. (Give it a name and leave all other settings as default)
+
 
 ![16](https://user-images.githubusercontent.com/93729559/170099416-06768bad-14e9-416d-abd1-2183c8886dab.png)
+
+![17](https://user-images.githubusercontent.com/93729559/170101747-029fa993-d18d-40c1-8f10-d2849a842808.png)
+
 
 
 
