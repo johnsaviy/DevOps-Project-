@@ -124,6 +124,15 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 
 ![25](https://user-images.githubusercontent.com/93729559/170137921-257c7743-b926-4a93-a7bd-ae3dce824acd.png)
 
+<br>
+- Install efs utils for mounting target on the EFS.
+
+![26](https://user-images.githubusercontent.com/93729559/170139864-d67e8013-5853-42bb-bd94-3a17efd6e5d4.png)
+
+![27](https://user-images.githubusercontent.com/93729559/170139867-1f751982-cad7-4904-b49c-e36a8235ca8f.png)
+
+![28](https://user-images.githubusercontent.com/93729559/170139868-ea8d6771-17fd-4c92-ac2d-3a1745797365.png)
+
 
 
 ### Create an AMI out of the EC2 instance
@@ -212,15 +221,23 @@ python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 - Create an EC2 Instance (Centos) each for WordPress and Tooling websites per Availability Zone (in the same Region).
 
 Ensure that it has the following software installed: python, ntp, net-tools, vim, wget,
-telnet, 
-epel-release, 
-htop, 
-php, 
 
 
 ![24](https://user-images.githubusercontent.com/93729559/170137924-14ebd555-de95-404d-91aa-86ded23d61f1.png)
 
 ![25](https://user-images.githubusercontent.com/93729559/170137921-257c7743-b926-4a93-a7bd-ae3dce824acd.png)
+
+<br>
+- Install efs utils for mounting target on the EFS.
+
+![26](https://user-images.githubusercontent.com/93729559/170139864-d67e8013-5853-42bb-bd94-3a17efd6e5d4.png)
+
+![27](https://user-images.githubusercontent.com/93729559/170139867-1f751982-cad7-4904-b49c-e36a8235ca8f.png)
+
+![28](https://user-images.githubusercontent.com/93729559/170139868-ea8d6771-17fd-4c92-ac2d-3a1745797365.png)
+
+
+
 
 
 - Create an AMI out of the EC2 instance
