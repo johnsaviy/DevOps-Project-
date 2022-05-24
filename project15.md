@@ -94,20 +94,22 @@ telnet
 epel-release
 htop
 
-- Create an AMI out of the EC2 instance
+### Create an AMI out of the EC2 instance
 
 - Prepare Launch Template For Nginx (One Per Subnet)
 - Make use of the AMI to set up a launch template
 - Ensure the Instances are launched into a public subnet
 - Assign appropriate security group
 - Configure Userdata to update yum package repository and install nginx
-- Configure Target Groups
+
+### Configure Target Groups
 - Select Instances as the target type
 - Ensure the protocol HTTPS on secure TLS port 443
 - Ensure that the health check path is /healthstatus
 - Register Nginx Instances as targets
 - Ensure that health check passes for the target group
-- Configure Autoscaling For Nginx
+ 
+### Configure Autoscaling For Nginx
 - Select the right launch template
 - Select the VPC
 - Select both public subnets
