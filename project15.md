@@ -166,14 +166,7 @@ htop
 - Create an EC2 Instance based on CentOS Amazon Machine Image (AMI) per each Availability Zone in the same Region and same AZ where you created Nginx server
 - Ensure that it has the following software installed
 
-python
-ntp
-net-tools
-vim
-wget
-telnet
-epel-release
-htop
+python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 
 
 ![21](https://user-images.githubusercontent.com/93729559/170136036-0addf721-eca9-46b1-9771-92f04c7c1085.png)
@@ -186,17 +179,21 @@ htop
 
 - Associate an Elastic IP with each of the Bastion EC2 Instances
 - Create an AMI out of the EC2 instance
-- Prepare Launch Template For Bastion (One per subnet)
+
+### Prepare Launch Template For Bastion (One per subnet)
 - Make use of the AMI to set up a launch template
 - Ensure the Instances are launched into a public subnet
 - Assign appropriate security group
 - Configure Userdata to update yum package repository and install Ansible and git
-- Configure Target Groups
+
+
+### Configure Target Groups
 - Select Instances as the target type
 - Ensure the protocol is TCP on port 22
 - Register Bastion Instances as targets
 - Ensure that health check passes for the target group
-- Configure Autoscaling For Bastion
+
+### Configure Autoscaling For Bastion
 - Select the right launch template
 - Select the VPC
 - Select both public subnets
@@ -208,7 +205,8 @@ htop
 - Maximum capacity is 4
 - Set scale out if CPU utilization reaches 90%
 - Ensure there is an SNS topic to send scaling notifications
-- Set Up Compute Resources for Webservers
+
+### Set Up Compute Resources for Webservers
 - Provision the EC2 Instances for Webservers
 
 
@@ -216,24 +214,21 @@ htop
 
 - Create an EC2 Instance (Centos) each for WordPress and Tooling websites per Availability Zone (in the same Region).
 
-Ensure that it has the following software installed
+Ensure that it has the following software installed: python, ntp, net-tools, vim, wget,
+telnet, 
+epel-release, 
+htop, 
+php, 
 
-python
-ntp
-net-tools
-vim
-wget
-telnet
-epel-release
-htop
-php
-Create an AMI out of the EC2 instance
+- Create an AMI out of the EC2 instance
 
-Prepare Launch Template For Webservers (One per subnet)
-Make use of the AMI to set up a launch template
-Ensure the Instances are launched into a public subnet
-Assign appropriate security group
-Configure Userdata to update yum package repository and install wordpress (Only required on the WordPress launch template)
+### Prepare Launch Template For Webservers (One per subnet)
+
+- Make use of the AMI to set up a launch template
+- Ensure the Instances are launched into a public subnet
+- Assign appropriate security group
+- Configure Userdata to update yum package repository and install wordpress (Only required on the WordPress launch template)
+
 TLS Certificates From Amazon Certificate Manager (ACM)
 You will need TLS certificates to handle secured connectivity to your Application Load Balancers (ALB).
 
