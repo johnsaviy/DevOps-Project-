@@ -29,6 +29,30 @@ Always make reference to the architectural diagram and ensure that your configur
 - Edit a route in public route table, and associate it with the Internet Gateway. (This is what allows a public subnet to be accisble from the Internet)
 - Create 3 Elastic IPs
 - Create a Nat Gateway and assign one of the Elastic IPs (*The other 2 will be used by Bastion hosts)
+
+
+![1](https://user-images.githubusercontent.com/93729559/170094425-2214c99b-bd6d-42f7-8833-2100172a6592.png)
+
+![2](https://user-images.githubusercontent.com/93729559/170094427-d5b5162e-4578-4e9e-9d5f-8e496cb6a1d9.png)
+
+![3](https://user-images.githubusercontent.com/93729559/170094434-84650511-7cd6-4bc1-a41e-479c230e611e.png)
+
+![4](https://user-images.githubusercontent.com/93729559/170094439-8d93d03a-9d0d-439e-abe2-d5109936780b.png)
+
+![5](https://user-images.githubusercontent.com/93729559/170094456-12350c4a-4791-48d4-9fee-cba14cb07ed5.png)
+
+![6](https://user-images.githubusercontent.com/93729559/170094479-7908ac59-d0ad-4d3c-98a4-090508847b06.png)
+
+![7](https://user-images.githubusercontent.com/93729559/170094486-ca8cbaba-dacc-4b8f-b466-6504ecc4dc34.png)
+
+![8](https://user-images.githubusercontent.com/93729559/170094490-73342daa-0209-4c55-9688-ff07c0343c46.png)
+
+![9](https://user-images.githubusercontent.com/93729559/170094492-7346921d-bb23-4b11-9f93-d1bb9a9f746d.png)
+
+![10](https://user-images.githubusercontent.com/93729559/170094497-c92b9416-f3d6-4732-892a-899cf96f7207.png)
+
+![11](https://user-images.githubusercontent.com/93729559/170094499-5e90f1de-e633-44e4-bc85-699dd367c029.png)
+
  
  ### Create a Security Group for:
 
@@ -40,6 +64,14 @@ Application Load Balancer: ALB will be available from the Internet
 ers (ALB)
 
 
+
+![12](https://user-images.githubusercontent.com/93729559/170094514-3e0509d0-2b89-4ec1-9d50-ca61b78ad9f5.png)
+
+![13](https://user-images.githubusercontent.com/93729559/170094520-010b2ecb-d377-46a3-87ce-a34951ea2aa5.png)
+
+![14](https://user-images.githubusercontent.com/93729559/170094523-85c9dc93-fc65-45ab-be62-503d50f303db.png)
+
+![15](https://user-images.githubusercontent.com/93729559/170094529-c73cb56c-8be0-434d-8659-42a9340944ee.png)
 
 
 
