@@ -133,6 +133,9 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 
 ![28](https://user-images.githubusercontent.com/93729559/170139868-ea8d6771-17fd-4c92-ac2d-3a1745797365.png)
 
+![30](https://user-images.githubusercontent.com/93729559/170140907-3dd4f1d6-ee38-4175-8ab2-568e4788e6c0.png)
+
+
 
 
 ### Create an AMI out of the EC2 instance
@@ -237,6 +240,9 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 ![28](https://user-images.githubusercontent.com/93729559/170139868-ea8d6771-17fd-4c92-ac2d-3a1745797365.png)
 
 ![29](https://user-images.githubusercontent.com/93729559/170140661-40a13a69-15cd-4f3c-ac8b-f78812877cfa.png)
+
+![30](https://user-images.githubusercontent.com/93729559/170140907-3dd4f1d6-ee38-4175-8ab2-568e4788e6c0.png)
+
 
 
 
