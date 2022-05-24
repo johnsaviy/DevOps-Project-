@@ -125,7 +125,7 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 ![25](https://user-images.githubusercontent.com/93729559/170137921-257c7743-b926-4a93-a7bd-ae3dce824acd.png)
 
 <br>
-- Install efs utils for mounting target on the EFS and set up self-signed certificate for apache webserver instance.
+- Install efs utils for mounting target on the EFS and set up self-signed certificate for nginx webserver instance.
 
 ![26](https://user-images.githubusercontent.com/93729559/170139864-d67e8013-5853-42bb-bd94-3a17efd6e5d4.png)
 
