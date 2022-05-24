@@ -175,6 +175,15 @@ telnet
 epel-release
 htop
 
+
+![21](https://user-images.githubusercontent.com/93729559/170136036-0addf721-eca9-46b1-9771-92f04c7c1085.png)
+
+![22](https://user-images.githubusercontent.com/93729559/170136098-97ef7334-fd37-4f8d-9ab5-279afbf30b2a.png)
+
+![23a](https://user-images.githubusercontent.com/93729559/170136106-99fdaf9b-370a-4e31-90ad-3caff475babb.png)
+
+
+
 - Associate an Elastic IP with each of the Bastion EC2 Instances
 - Create an AMI out of the EC2 instance
 - Prepare Launch Template For Bastion (One per subnet)
@@ -201,6 +210,8 @@ htop
 - Ensure there is an SNS topic to send scaling notifications
 - Set Up Compute Resources for Webservers
 - Provision the EC2 Instances for Webservers
+
+
 - Now, you will need to create 2 separate launch templates for both the WordPress and Tooling websites
 
 - Create an EC2 Instance (Centos) each for WordPress and Tooling websites per Availability Zone (in the same Region).
@@ -232,4 +243,3 @@ Use DNS to validate the domain name
 Tag the resource
 
 
-1.25
