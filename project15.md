@@ -271,4 +271,4 @@ Request a public wildcard certificate for the domain name you registered in Free
 Use DNS to validate the domain name
 Tag the resource
 
-
+1.52
