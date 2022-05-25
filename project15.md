@@ -294,6 +294,12 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 ![38](https://user-images.githubusercontent.com/93729559/170208868-25a417af-a20c-4489-af52-b6db28c9f725.png)
 
 
+### Configure Autoscaling For Tooling and wordpress
+
+![42](https://user-images.githubusercontent.com/93729559/170213888-200bd067-4756-41fe-ab4d-1d7194ff52fb.png)
+
+
+
 
 
 TLS Certificates From Amazon Certificate Manager (ACM)
