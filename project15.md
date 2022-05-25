@@ -80,7 +80,8 @@ ers (ALB)
 
 ### Setting up domain name
 
-![1](https://user-images.githubusercontent.com/93729559/170098904-62a15475-5300-4113-b5bd-87cc27f60f17.png)
+![43](https://user-images.githubusercontent.com/93729559/170218883-2e430bee-4eb1-4b1d-8b68-656bd480fca8.png)
+
 
 
 ### Setting up Elastic filesystem
