@@ -112,6 +112,10 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 ![20](https://user-images.githubusercontent.com/93729559/170105422-3fd580ac-88b3-4e93-87df-2b4dd9cd599c.png)
 
 
+![41](https://user-images.githubusercontent.com/93729559/170212592-8c016efd-9caa-4dfc-a831-cedd4c5563ee.png)
+
+
+
 
 ### Set Up Compute Resources for Nginx
 
