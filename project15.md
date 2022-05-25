@@ -237,6 +237,10 @@ python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 - Ensure there is an SNS topic to send scaling notifications
 - 
 
+![39](https://user-images.githubusercontent.com/93729559/170209964-b4797ad3-5b3c-413b-9a75-f7c6a1e85ca5.png)
+
+
+
 ### Set Up Compute Resources for Webservers
 - Provision the EC2 Instances for Webservers
 
