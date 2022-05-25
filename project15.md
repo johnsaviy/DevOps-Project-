@@ -319,7 +319,7 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 
 
 
-Now I have just created a secured, scalable and cost-effective infrastructure to host 2 enterprise websites using various Cloud services from AWS.
+<b>Now I have just created a secured, scalable and cost-effective infrastructure to host 2 enterprise websites using various Cloud services from AWS.<b>
 
 
 
