@@ -180,6 +180,7 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Ensure there is an SNS topic to send scaling notifications
 
 
+![40](https://user-images.githubusercontent.com/93729559/170210369-48e3ff30-a772-4d36-bafa-0b19a75a3ad3.png)
 
 
 <br>
