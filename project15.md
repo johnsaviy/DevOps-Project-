@@ -302,13 +302,15 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 
 
 
+![44](https://user-images.githubusercontent.com/93729559/170220574-ae8b7381-6746-4073-a1b5-cd923304f870.png)
 
-TLS Certificates From Amazon Certificate Manager (ACM)
-You will need TLS certificates to handle secured connectivity to your Application Load Balancers (ALB).
+![44a](https://user-images.githubusercontent.com/93729559/170220581-f1746396-f289-4a65-afdf-cc3edf104b3f.png)
 
-Navigate to AWS ACM
-Request a public wildcard certificate for the domain name you registered in Freenom
-Use DNS to validate the domain name
-Tag the resource
+![45](https://user-images.githubusercontent.com/93729559/170220588-14213325-ca3d-4294-8d1f-4424cd7e2b98.png)
+
+
+
+Now I have just created a secured, scalable and cost-effective infrastructure to host 2 enterprise websites using various Cloud services from AWS.
+
 
 
