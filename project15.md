@@ -155,6 +155,9 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Ensure that the health check path is /healthstatus
 - Register Nginx Instances as targets
 - Ensure that health check passes for the target group
+
+![34](https://user-images.githubusercontent.com/93729559/170200069-4d19c07e-989d-4987-84e7-24ec90a611b2.png)
+
  
 ### Configure Autoscaling For Nginx
 - Select the right launch template
@@ -271,4 +274,4 @@ Request a public wildcard certificate for the domain name you registered in Free
 Use DNS to validate the domain name
 Tag the resource
 
-1.52
+
