@@ -156,7 +156,9 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Register Nginx Instances as targets
 - Ensure that health check passes for the target group
 
-![34](https://user-images.githubusercontent.com/93729559/170200069-4d19c07e-989d-4987-84e7-24ec90a611b2.png)
+![34](https://user-images.githubusercontent.com/93729559/170201593-0878f785-0623-47f1-8405-dfd078b70c2f.png)
+
+
 
  
 ### Configure Autoscaling For Nginx
@@ -171,6 +173,8 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Maximum capacity is 4
 - Set scale out if CPU utilization reaches 90%
 - Ensure there is an SNS topic to send scaling notifications
+
+
 
 
 <br>
@@ -204,6 +208,10 @@ python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 - Configure Userdata to update yum package repository and install Ansible and git
 
 
+![36](https://user-images.githubusercontent.com/93729559/170204576-b5c1e614-53a6-434d-9378-e8ae879f49ba.png)
+
+
+
 ### Configure Target Groups
 - Select Instances as the target type
 - Ensure the protocol is TCP on port 22
@@ -222,6 +230,7 @@ python, ntp, net-tools, vim, wget, telnet, epel-release, htop
 - Maximum capacity is 4
 - Set scale out if CPU utilization reaches 90%
 - Ensure there is an SNS topic to send scaling notifications
+- 
 
 ### Set Up Compute Resources for Webservers
 - Provision the EC2 Instances for Webservers
