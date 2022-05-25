@@ -149,6 +149,11 @@ Pre-requisite: Create a KMS key from Key Management Service (KMS) to be used to 
 - Assign appropriate security group
 - Configure Userdata to update yum package repository and install nginx
 
+
+![37](https://user-images.githubusercontent.com/93729559/170206594-47269e3d-4529-4d01-ad9e-d4333dee2354.png)
+
+
+
 ### Configure Target Groups
 - Select Instances as the target type
 - Ensure the protocol HTTPS on secure TLS port 443
