@@ -280,6 +280,13 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 - Assign appropriate security group
 - Configure Userdata to update yum package repository and install wordpress (Only required on the WordPress launch template)
 
+
+
+![38](https://user-images.githubusercontent.com/93729559/170208868-25a417af-a20c-4489-af52-b6db28c9f725.png)
+
+
+
+
 TLS Certificates From Amazon Certificate Manager (ACM)
 You will need TLS certificates to handle secured connectivity to your Application Load Balancers (ALB).
 
