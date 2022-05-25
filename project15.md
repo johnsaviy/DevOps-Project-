@@ -300,9 +300,18 @@ Ensure that it has the following software installed: python, ntp, net-tools, vim
 ![42](https://user-images.githubusercontent.com/93729559/170213888-200bd067-4756-41fe-ab4d-1d7194ff52fb.png)
 
 
+<br>
 
+- Create an alias record for the root domain and direct its traffic to the ALB DNS name.
+- Create an alias record for tooling.<yourdomain>.com and direct its traffic to the ALB DNS name.
+ 
+ 
+ ![46](https://user-images.githubusercontent.com/93729559/170223902-acced99a-4c78-4ea9-8138-cea39053e92f.png)
+ 
+<br>
 
 ![44](https://user-images.githubusercontent.com/93729559/170220574-ae8b7381-6746-4073-a1b5-cd923304f870.png)
+ 
 
 ![44a](https://user-images.githubusercontent.com/93729559/170220581-f1746396-f289-4a65-afdf-cc3edf104b3f.png)
 
