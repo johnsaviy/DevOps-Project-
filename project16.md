@@ -43,9 +43,14 @@ Let us create a directory structure. Open your Visual Studio Code and:
 ![1](https://user-images.githubusercontent.com/93729559/171162048-e50e5a27-6b27-4c63-8156-61aa31a751eb.png)
 
   
+### Setup Provider and VPC resource section
+
+- Add AWS as a provider, and a resource to create a VPC in the main.tf file.
+- Provider block informs Terraform that we intend to build infrastructure within AWS.
+- Resource block will create a VPC.
   
-  
-  
+![2](https://user-images.githubusercontent.com/93729559/171163546-3d06c8f1-29e0-4d27-b425-306aa461a722.png)
+
   
   
   
