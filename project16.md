@@ -30,4 +30,31 @@ Before writing the terraform code, Lets do the following:
   
   ![2](https://user-images.githubusercontent.com/93729559/171137606-0ef8a678-3a99-4541-bf52-4836dcd59288.png)
 
+  
+
+### VPC | Subnets | Security Groups.
+  
+Let us create a directory structure. Open your Visual Studio Code and:
+
+- Create a folder called PBL
+- Create a file in the folder, name it main.tf
+  
+  
+![1](https://user-images.githubusercontent.com/93729559/171162048-e50e5a27-6b27-4c63-8156-61aa31a751eb.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
