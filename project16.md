@@ -78,7 +78,30 @@ Add below configuration to the main.tf file:
 ![4](https://user-images.githubusercontent.com/93729559/171362861-71a6c33a-1c78-49c3-8673-36d0faf13667.png)
   
   
+- We are creating 2 subnets, therefore declaring 2 resource blocks – one for each of the subnets.
+- We are using the vpc_id argument to interpolate the value of the VPC id by setting it to aws_vpc.main.id. This way, Terraform knows inside which VPC to create the subnet.  
   
+- Run terraform plan and terraform apply
+  
+ ![5](https://user-images.githubusercontent.com/93729559/171366615-bbc559ea-81df-471b-9596-64b49f3fb035.png)
+  
+  - The VPC and subnets created!
+  
+![6](https://user-images.githubusercontent.com/93729559/171366616-2054ca41-360e-44da-946e-0d421ed45f44.png)
+  
+![6a](https://user-images.githubusercontent.com/93729559/171366618-3c0f6401-fc37-486c-b150-0fab76f54c99.png)
+
+  
+  
+ Observations:
+
+Hard coded values: Remember our best practice hint from the beginning? Both the availability_zone and cidr_block arguments are hard coded. We should always endeavour to make our work dynamic.
+Multiple Resource Blocks: Notice that we have declared multiple resource blocks for each subnet in the code. This is bad coding practice. We need to create a single resource block that can dynamically create resources without specifying multiple blocks. Imagine if we wanted to create 10 subnets, our code would look very clumsy. So, we need to optimize this by introducing a count argument.
+Now let us improve our code by refactoring it.
+
+First, destroy the current infrastructure. Since we are still in development, this is totally fine. Otherwise, DO NOT DESTROY an infrastructure that has been deployed to production.
+
+To destroy whatever has been created run terraform destroy command, and type yes after evaluating the plan.
   
   
   
