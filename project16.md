@@ -62,7 +62,41 @@ Moving on, let us create the only resource we just defined. aws_vpc. But before 
 
 Run terraform plan, 
 
-  ![3](https://user-images.githubusercontent.com/93729559/171360829-7a5641f7-5cf4-4511-9842-6b435bc43718.png)
+![3](https://user-images.githubusercontent.com/93729559/171360829-7a5641f7-5cf4-4511-9842-6b435bc43718.png)
+  
+- Subnets resource section
+According to our architectural design, we require 6 subnets:
+
+- 2 public
+- 2 private for webservers
+- 2 private for data layer
+
+  Let us create the first 2 public subnets.
+
+Add below configuration to the main.tf file:
+  
+![4](https://user-images.githubusercontent.com/93729559/171362861-71a6c33a-1c78-49c3-8673-36d0faf13667.png)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
   
