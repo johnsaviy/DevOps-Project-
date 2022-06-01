@@ -119,7 +119,20 @@ To destroy whatever has been created run terraform destroy command, and type yes
  ![8](https://user-images.githubusercontent.com/93729559/171370362-ba894111-f695-4b45-8394-8a59436f6e08.png)
 
   
+
+  - Fixing multiple resource blocks: This is where things become a little tricky. It’s not complex, we are just going to introduce some interesting concepts. Loops & Data sources
+
+Terraform has a functionality that allows us to pull data which exposes information to us. For example, every region has Availability Zones (AZ). Different regions have from 2 to 4 Availability Zones. With over 20 geographic regions and over 70 AZs served by AWS, it is impossible to keep up with the latest information by hard coding the names of AZs. Hence, we will explore the use of Terraform’s Data Sources to fetch information outside of Terraform. In this case, from AWS
+
+Let us fetch Availability zones from AWS, and replace the hard coded value in the subnet’s availability_zone section.
   
+![9](https://user-images.githubusercontent.com/93729559/171372319-0fd5cffb-aa75-4649-a7ad-47145639df14.png)
+  
+  
+ - To make use of this new data resource, we will need to introduce a count argument in the subnet block: Something like this. 
+  
+![10](https://user-images.githubusercontent.com/93729559/171372328-e55727fe-9ec5-42d9-9d98-bbfb3255b4e9.png)
+
   
   
   
