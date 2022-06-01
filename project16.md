@@ -103,7 +103,8 @@ First, destroy the current infrastructure. Since we are still in development, th
 
 To destroy whatever has been created run terraform destroy command, and type yes after evaluating the plan.
   
-  
+![7](https://user-images.githubusercontent.com/93729559/171367453-bffd54cf-4ec7-4d3e-a1fe-e16511814f88.png)
+
   
   
   
