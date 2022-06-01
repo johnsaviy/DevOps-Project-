@@ -15,3 +15,39 @@ Based on the knowledge from the previous project lets keep on creating AWS resou
 - Use variables and cidrsubnet() function to allocate vpc_cidr for subnets
 - Keep variables and resources in separate files for better code structure and readability
 - Tags all the resources you have created so far. Explore how to use format() and count functions to automatically tag subnets with its respective number.
+
+
+![1](https://user-images.githubusercontent.com/93729559/171413852-5054adf6-c4e9-4022-8024-6a8f3c24e241.png)
+
+![2](https://user-images.githubusercontent.com/93729559/171413861-0d5e7101-bd7d-40d3-ab72-5aed44d38696.png)
+
+![3](https://user-images.githubusercontent.com/93729559/171413867-e194941d-c6cd-412d-b406-af57cb6d8ea5.png)
+
+
+**Internet Gateways & format() function**
+
+Create an Internet Gateway in a separate Terraform file internet_gateway.tf
+
+![4](https://user-images.githubusercontent.com/93729559/171414356-f6077884-ccf7-4b5b-9463-915c4073b68c.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
