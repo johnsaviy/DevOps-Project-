@@ -193,8 +193,19 @@ Instead of havng a long lisf of variables in main.tf file, we can actually make 
 - Set values for each of the variables.
 
 ![15](https://user-images.githubusercontent.com/93729559/171380105-d2908e1c-7649-40ab-811a-628565a6b10b.png)
-
   
+
+
+- Run terraform plan and apply!
+  
+ ![16](https://user-images.githubusercontent.com/93729559/171382090-a05313a2-237a-4fb6-b825-066fe819403e.png)
+  
+![17](https://user-images.githubusercontent.com/93729559/171382099-ef43e2a4-605f-4b41-a8ca-ebd142c384b2.png)
+  
+![18](https://user-images.githubusercontent.com/93729559/171382105-6a1e63f1-95cf-482a-8245-afee98178661.png)
+  
+
+  Now we have the VPC and subnets created!
 
 
   
