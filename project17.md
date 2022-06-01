@@ -43,7 +43,13 @@ Note: We need to create an Elastic IP for the NAT Gateway, and you can see the u
 
 
 
+**AWS ROUTES**
 
+Create a file called route_tables.tf and use it to create routes for both public and private subnets, create the below resources. Ensure they are properly tagged.
+
+- aws_route_table
+- aws_route
+- aws_route_table_association
 
 
 
