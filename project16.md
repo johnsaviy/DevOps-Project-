@@ -106,12 +106,18 @@ To destroy whatever has been created run terraform destroy command, and type yes
 ![7](https://user-images.githubusercontent.com/93729559/171367453-bffd54cf-4ec7-4d3e-a1fe-e16511814f88.png)
 
   
+
+  **Fixing The Problems By Code Refactoring**
+  
+  Fixing Hard Coded Values: We will introduce variables, and remove hard coding.
+
+- Starting with the provider block, declare a variable named region, give it a default value, and update the provider section by referring to the declared variable.
+  
+- Do the same to cidr value in the vpc block, and all the other arguments.
   
   
-  
-  
-  
-  
+ ![8](https://user-images.githubusercontent.com/93729559/171370362-ba894111-f695-4b45-8394-8a59436f6e08.png)
+
   
   
   
