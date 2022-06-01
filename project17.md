@@ -51,6 +51,24 @@ Create a file called route_tables.tf and use it to create routes for both public
 - aws_route
 - aws_route_table_association
 
+![6](https://user-images.githubusercontent.com/93729559/171442848-cd5962d5-f11f-436d-bd83-d83d0eee87d8.png)
+
+- Run terraform plan and apply
+- 
+
+![8](https://user-images.githubusercontent.com/93729559/171442854-837bc4b1-0831-43e0-84f7-c54648d84f75.png)
+
+![8a](https://user-images.githubusercontent.com/93729559/171442857-66160e1c-5396-489f-ab57-becd464eac98.png)
+
+![8b](https://user-images.githubusercontent.com/93729559/171442861-5198fe44-948c-4be6-b5cf-877602fd8bc5.png)
+
+![8c](https://user-images.githubusercontent.com/93729559/171442863-c49c4d32-809c-446b-b348-80fdcae13ff0.png)
+
+![8d](https://user-images.githubusercontent.com/93729559/171442865-32fb294f-94ae-4f76-b510-40f9cff2d613.png)
+
+![8e](https://user-images.githubusercontent.com/93729559/171442869-651ccc6c-0e8f-4949-ba31-ebbc7ab09c1d.png)
+
+
 
 
 
