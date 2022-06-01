@@ -31,6 +31,18 @@ Create an Internet Gateway in a separate Terraform file internet_gateway.tf
 ![4](https://user-images.githubusercontent.com/93729559/171414356-f6077884-ccf7-4b5b-9463-915c4073b68c.png)
 
 
+**NAT Gateways**
+Create 1 NAT Gateways and 1 Elastic IP (EIP) addresses
+
+Now use similar approach to create the NAT Gateways in a new file called natgateway.tf.
+
+Note: We need to create an Elastic IP for the NAT Gateway, and you can see the use of depends_on to indicate that the Internet Gateway resource must be available before this should be created. Although Terraform does a good job to manage dependencies, but in some cases, it is good to be explicit.
+
+
+![5](https://user-images.githubusercontent.com/93729559/171417930-7b8d5711-d115-4c1b-a5b1-4ba6c465c2a5.png)
+
+
+
 
 
 
