@@ -135,9 +135,52 @@ Let us fetch Availability zones from AWS, and replace the hard coded value in th
 
   
   
+Let us quickly understand what is going on here.
+
+The count tells us that we need 2 subnets. Therefore, Terraform will invoke a loop to create 2 subnets.
+The data resource will return a list object that contains a list of AZs. Internally, Terraform will receive the data like this
+  ["eu-central-1a", "eu-central-1b"]
+Each of them is an index, the first one is index 0, while the other is index 1. If the data returned had more than 2 records, then the index numbers would continue to increment.
+
+Therefore, each time Terraform goes into a loop to create a subnet, it must be created in the retrieved AZ from the list. Each loop will need the index number to determine what AZ the subnet will be created. That is why we have data.aws_availability_zones.available.names[count.index] as the value for availability_zone. When the first loop runs, the first index will be 0, therefore the AZ will be eu-central-1a. The pattern will repeat for the second loop.
+
+But we still have a problem. If we run Terraform with this configuration, it may succeed for the first time, but by the time it goes into the second loop, it will fail because we still have cidr_block hard coded. The same cidr_block cannot be created twice within the same VPC. So, we have a little more work to do.
+  
+
+  - Let’s make cidr_block dynamic.
+  
+ We will introduce a function cidrsubnet() to make this happen. It accepts 3 parameters. Let us use it first by updating the configuration.
+  
+ ![11](https://user-images.githubusercontent.com/93729559/171375030-f95ba2ac-64c1-4077-a2ba-63fae446b710.png)
+
+  
+- The final problem to solve is removing hard coded count value.
+  
+If we cannot hard code a value we want, then we will need a way to dynamically provide the value based on some input. Since the data resource returns all the AZs within a region, it makes sense to count the number of AZs returned and pass that number to the count argument.
+
+To do this, we can introuduce length() function, which basically determines the length of a given list, map, or string.
+
+Since data.aws_availability_zones.available.names returns a list like ["eu-central-1a", "eu-central-1b", "eu-central-1c"] we can pass it into a lenght function and get number of the AZs.
+
+length(["eu-central-1a", "eu-central-1b", "eu-central-1c"])  
+  
+![12](https://user-images.githubusercontent.com/93729559/171375463-b888c7d2-052d-4fd9-93f3-0fd05bed66c4.png)
   
   
+**Observations:** 
+
+What we have now, is sufficient to create the subnet resource required. But if you observe, it is not satisfying our business requirement of just 2 subnets. The length function will return number 3 to the count argument, but what we actually need is 2.
+Now, let us fix this.
+
+- Declare a variable to store the desired number of public subnets, and set the default value.
   
+ ![13](https://user-images.githubusercontent.com/93729559/171376296-dcace173-f581-479e-8d03-3f55a4e0b131.png)
+  
+- Next, update the count argument with a condition. Terraform needs to check first if there is a desired number of subnets. Otherwise, use the data returned by the length function. See how that is presented below.
+  
+
+![14](https://user-images.githubusercontent.com/93729559/171376300-1c7fc981-d4d1-4195-a846-61ad07f840ad.png)
+
   
   
 
