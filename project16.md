@@ -182,9 +182,18 @@ Now, let us fix this.
 ![14](https://user-images.githubusercontent.com/93729559/171376300-1c7fc981-d4d1-4195-a846-61ad07f840ad.png)
   
   
-
-
+**Introducing variables.tf & terraform.tfvars**
   
+Instead of havng a long lisf of variables in main.tf file, we can actually make our code a lot more readable and better structured by moving out some parts of the configuration content to other files.
+
+- We will put all variable declarations in a separate file And provide non default values to each of them
+- Create a new file and name it variables.tf
+- Copy all the variable declarations into the new file.
+- Create another file, name it terraform.tfvars
+- Set values for each of the variables.
+
+![15](https://user-images.githubusercontent.com/93729559/171380105-d2908e1c-7649-40ab-811a-628565a6b10b.png)
+
   
 
 
