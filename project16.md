@@ -50,6 +50,20 @@ Let us create a directory structure. Open your Visual Studio Code and:
 - Resource block will create a VPC.
   
 ![2](https://user-images.githubusercontent.com/93729559/171163546-3d06c8f1-29e0-4d27-b425-306aa461a722.png)
+  
+  
+The next thing we need to do, is to download necessary plugins for Terraform to work. These plugins are used by providers and provisioners. At this stage, we only have provider in our main.tf file. So, Terraform will just download plugin for AWS provider.
+Lets accomplish this with terraform init command as seen in the below demonstration.
+  
+  **Observations**:
+
+Notice that a new directory has been created: .terraform\.... This is where Terraform keeps plugins. Generally, it is safe to delete this folder. It just means that you must execute terraform init again, to download them.
+Moving on, let us create the only resource we just defined. aws_vpc. But before we do that, we should check to see what terraform intends to create before we tell it to go ahead and create it.
+
+Run terraform plan, 
+
+  ![3](https://user-images.githubusercontent.com/93729559/171360829-7a5641f7-5cf4-4511-9842-6b435bc43718.png)
+
 
   
   
