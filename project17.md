@@ -122,6 +122,30 @@ First of all we will create the ALB, then we create the target group and lastly 
 ![12](https://user-images.githubusercontent.com/93729559/171624432-5771ad1b-1fd8-409b-a397-38c19a298464.png)
 
 
+**CREATING AUSTOALING GROUPS**
+
+Now we need to configure our ASG to be able to scale the EC2s out and in depending on the application traffic.
+
+Before we start configuring an ASG, we need to create the launch template and the the AMI needed. For now we are going to use a random AMI from AWS.
+
+- Create asg-bastion-nginx.tf and add the codes
+- create notification for all the auto scaling groups
+- launch template for bastion
+
+![13](https://user-images.githubusercontent.com/93729559/171626339-93ccfe76-bbbd-405c-bc71-3965c133d5e3.png)
+
+
+**Autoscaling for wordpres and toolibng will be created in a seperate file**
+
+- Create asg-wordpress-tooling.tf and the codes
+
+![14](https://user-images.githubusercontent.com/93729559/171626851-7220318c-2cb3-4778-8d01-9f64a9297081.png)
+
+
+
+
+
+
 
 
 
