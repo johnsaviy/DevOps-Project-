@@ -69,8 +69,26 @@ Create a file called route_tables.tf and use it to create routes for both public
 ![8e](https://user-images.githubusercontent.com/93729559/171442869-651ccc6c-0e8f-4949-ba31-ebbc7ab09c1d.png)
 
 
+Now, we are done with Networking part of AWS set up, let us move on to Compute and Access Control configuration automation using Terraform!
+
+**AWS Identity and Access Management** 
+
+- IaM and Roles
+- 
+We want to pass an IAM role our EC2 instances to give them access to some specific resources, so we need to do the following:
+
+- Create AssumeRole
+Assume Role uses Security Token Service (STS) API that returns a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to. These temporary credentials consist of an access key ID, a secret access key, and a security token. Typically, you use AssumeRole within your account or for cross-account access.
+
+Add the following code to a new file named roles.tf
 
 
+
+In this code we are creating AssumeRole with AssumeRole policy. It grants to an entity, in our case it is an EC2, permissions to assume the role.
+
+
+- Create IAM policy for this role
+This is where we need to define a required policy (i.e., permissions) according to our requirements. For example, allowing an IAM role to perform action describe applied to EC2 instances:
 
 
 
