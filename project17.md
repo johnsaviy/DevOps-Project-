@@ -82,14 +82,18 @@ Assume Role uses Security Token Service (STS) API that returns a set of temporar
 
 Add the following code to a new file named roles.tf
 
-
-
 In this code we are creating AssumeRole with AssumeRole policy. It grants to an entity, in our case it is an EC2, permissions to assume the role.
 
 
 - Create IAM policy for this role
 This is where we need to define a required policy (i.e., permissions) according to our requirements. For example, allowing an IAM role to perform action describe applied to EC2 instances:
 
+- Attach the Policy to the IAM Role
+This is where, we will be attaching the policy which we created above, to the role we created in the first step.
+
+- Create an Instance Profile and interpolate the IAM Role
+
+![9](https://user-images.githubusercontent.com/93729559/171622202-2f6281fe-4d5c-4fb8-9efd-73630f57a2b5.png)
 
 
 
