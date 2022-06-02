@@ -135,11 +135,24 @@ Before we start configuring an ASG, we need to create the launch template and th
 ![13](https://user-images.githubusercontent.com/93729559/171626339-93ccfe76-bbbd-405c-bc71-3965c133d5e3.png)
 
 
-**Autoscaling for wordpres and toolibng will be created in a seperate file**
+**Autoscaling for wordpress and tooling will be created in a seperate file**
 
 - Create asg-wordpress-tooling.tf and the codes
 
 ![14](https://user-images.githubusercontent.com/93729559/171626851-7220318c-2cb3-4778-8d01-9f64a9297081.png)
+
+
+**STORAGE AND DATABASE**
+
+- Create Elastic File System (EFS)
+- 
+In order to create an EFS you need to create a KMS key.
+
+AWS Key Management Service (KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.
+
+Add the code to efs.tf
+
+![15](https://user-images.githubusercontent.com/93729559/171651620-00a2c82d-8bee-4beb-8663-607673ac7704.png)
 
 
 
