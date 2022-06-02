@@ -113,6 +113,28 @@ Creating cert.tf file and adding the coding
 
 
 
+**Create an external (Internet facing) Application Load Balancer (ALB)**
+
+Create a file called alb.tf
+
+First of all we will create the ALB, then we create the target group and lastly we will create the lsitener rule.
+
+![12](https://user-images.githubusercontent.com/93729559/171624432-5771ad1b-1fd8-409b-a397-38c19a298464.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
