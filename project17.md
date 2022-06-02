@@ -104,6 +104,29 @@ We are going to create all the security groups in a single file, then we are goi
 ![10](https://user-images.githubusercontent.com/93729559/171623306-6b6f477a-20bd-44ce-baa3-c259d25d2339.png)
 
 
+**CREATE CERTIFICATE FROM AMAZON CERIFICATE MANAGER**
+
+Creating cert.tf file and adding the coding
+
+
+![11](https://user-images.githubusercontent.com/93729559/171623843-08eb222f-f8a6-41f3-a8f3-e9dede6ec008.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
