@@ -155,6 +155,13 @@ Add the code to efs.tf
 ![15](https://user-images.githubusercontent.com/93729559/171651620-00a2c82d-8bee-4beb-8663-607673ac7704.png)
 
 
+**Create MySQL RDS**
+
+Let's create the RDS itself in rds.tf file:
+
+![16](https://user-images.githubusercontent.com/93729559/171653420-39384443-883b-48ec-af82-41c9318a8eff.png)
+
+
 
 
 
