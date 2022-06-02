@@ -96,9 +96,12 @@ This is where, we will be attaching the policy which we created above, to the ro
 ![9](https://user-images.githubusercontent.com/93729559/171622202-2f6281fe-4d5c-4fb8-9efd-73630f57a2b5.png)
 
 
+**CREATE SECURITY GROUPS**
+
+We are going to create all the security groups in a single file, then we are going to refrence this security group within each resources that needs it.
 
 
-
+![10](https://user-images.githubusercontent.com/93729559/171623306-6b6f477a-20bd-44ce-baa3-c259d25d2339.png)
 
 
 
