@@ -162,6 +162,33 @@ Let's create the RDS itself in rds.tf file:
 ![16](https://user-images.githubusercontent.com/93729559/171653420-39384443-883b-48ec-af82-41c9318a8eff.png)
 
 
+- plan and apply the Terraform codes, explore the resources in AWS console.
+
+
+![17](https://user-images.githubusercontent.com/93729559/171663038-a68665e1-8b4f-4b6d-8676-1e3805f15d2a.png)
+
+![17a](https://user-images.githubusercontent.com/93729559/171663046-5ad0a3fe-57b6-4907-822d-490b1598c66f.png)
+
+![17b](https://user-images.githubusercontent.com/93729559/171663047-17ee3da1-075a-4bdf-a0af-cc4628552196.png)
+
+![17c](https://user-images.githubusercontent.com/93729559/171663051-bb093b5c-29b1-4611-ba86-d0a4e31a8959.png)
+
+![17d](https://user-images.githubusercontent.com/93729559/171663062-2cc51bbb-e0b4-4eec-8f84-f87143293cfe.png)
+
+![17e](https://user-images.githubusercontent.com/93729559/171663064-b05770e5-f87f-4c2f-aba6-ea8301ec9440.png)
+
+![17f](https://user-images.githubusercontent.com/93729559/171663069-292c9c87-984d-416a-accd-d3f792c424c5.png)
+
+![17g](https://user-images.githubusercontent.com/93729559/171663077-3903d00a-e43a-4ec6-a7ef-9b7f0844221b.png)
+
+![18](https://user-images.githubusercontent.com/93729559/171663086-3dd996d7-5109-4101-aed8-cb810b2c003f.png)
+
+![19](https://user-images.githubusercontent.com/93729559/171663089-4f1d147e-384a-4792-9300-020222033881.png)
+
+![20](https://user-images.githubusercontent.com/93729559/171663097-7d093ef3-e61d-4641-9e77-e6e8e190eef5.png)
+
+![21](https://user-images.githubusercontent.com/93729559/171663293-4d424bbd-8f60-4381-b47b-311295dfbe18.png)
+
 
 
 
