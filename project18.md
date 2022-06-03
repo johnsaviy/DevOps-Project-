@@ -27,3 +27,68 @@ Let us configure it!
 - Delete the local tfstate file and check the one in S3 bucket
 - Add outputs
 - terraform apply
+
+
+
+- Create a file and name it backend.tf and add the code to it.
+
+
+
+
+- Next, we will create a DynamoDB table to handle locks and perform consistency checks. In previous projects, locks were handled with a local file as shown in terraform.tfstate.lock.info. Since we now have a team mindset, causing us to configure S3 as our backend to store state file, we will do the same to handle locking. Therefore, with a cloud storage database like DynamoDB, anyone running Terraform against the same infrastructure can use a central location to control a situation where Terraform is running at the same time from multiple different people.
+Dynamo DB resource for locking and consistency checking:
+
+pic
+
+
+Terraform expects that both S3 bucket and DynamoDB resources are already created before we configure the backend. So, let us run terraform apply to provision resources.
+
+- Configure S3 Backend
+
+pic
+
+- Now its time to re-initialize the backend. Run terraform init
+
+pic
+
+- Verify the changes
+- 
+Before doing anything if I opened AWS now to see what happened I will see the following:
+
+- tfstatefile is now inside the S3 bucket
+
+
+- DynamoDB table which we create has an entry which includes state file status
+
+
+I'll navigate to the DynamoDB table inside AWS and leave the page open in the browser, run terraform plan and while that is running, I'll refresh the browser and see how the lock is being handled:
+
+
+pics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
