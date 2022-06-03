@@ -61,6 +61,30 @@ I'll navigate to the DynamoDB table inside AWS and leave the page open in the br
 **Now I'll break down the terraform codes to have all resources in their respective modules and combine resources of a similar type into directories within a ‘modules’ directory**
 
 
+![3](https://user-images.githubusercontent.com/93729559/171879739-f9a32819-3f57-4846-8b42-ca341874eed0.png)
+
+![4](https://user-images.githubusercontent.com/93729559/171879829-56e16e47-22d0-4d0a-a045-9567d8f878e6.png)
+
+![5](https://user-images.githubusercontent.com/93729559/171879834-932c43a0-7958-4750-a083-f0a81c574f75.png)
+
+![6](https://user-images.githubusercontent.com/93729559/171879859-465849fb-2aa1-48c7-a8b1-8d29e1c2e1fa.png)
+
+![7](https://user-images.githubusercontent.com/93729559/171879876-985be30d-98f0-44e0-b4c5-5b285011a427.png)
+
+![8](https://user-images.githubusercontent.com/93729559/171879884-e646c3d2-a9fb-46af-a95d-73d43e1e2a2b.png)
+
+![9](https://user-images.githubusercontent.com/93729559/171879892-8be2eef2-6936-461f-b543-6729740abd4a.png)
+
+![10](https://user-images.githubusercontent.com/93729559/171879899-a1d80b83-8362-4014-b94a-57df6ba1d3ac.png)
+
+![11](https://user-images.githubusercontent.com/93729559/171879921-dd6ba3bd-7c26-451b-a096-bcafc3c39f71.png)
+
+![12](https://user-images.githubusercontent.com/93729559/171879928-4708017f-edb9-4c85-b77b-c2fa11950091.png)
+
+![13](https://user-images.githubusercontent.com/93729559/171879944-644dbd67-05d5-461b-96f4-8ea8b2cfce9f.png)
+
+
+
 
 
 
