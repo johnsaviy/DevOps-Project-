@@ -85,6 +85,30 @@ I'll navigate to the DynamoDB table inside AWS and leave the page open in the br
 
 
 
+**After running terrraform plan and apply, we have the infrastructure set up in Aws as it was in previous project 17**
+
+
+![17](https://user-images.githubusercontent.com/93729559/171880644-fa29c59e-1fd5-4b82-925a-a8d631ec7a09.png)
+
+![17a](https://user-images.githubusercontent.com/93729559/171880648-060a725d-e0ac-41a5-a7c6-6aa4b9a32ff1.png)
+
+![17b](https://user-images.githubusercontent.com/93729559/171880651-eaf26051-30b3-4cfe-aa32-9d531e9d07ca.png)
+
+![17c](https://user-images.githubusercontent.com/93729559/171880653-513caf3f-c1ef-4b2f-9127-1aa21fefdd02.png)
+
+![17d](https://user-images.githubusercontent.com/93729559/171880657-bedfe671-4fe8-48db-92a6-aaf922fb4998.png)
+
+![17e](https://user-images.githubusercontent.com/93729559/171880674-11cae6b5-1767-449b-90b9-13a7e5cc500f.png)
+
+![17f](https://user-images.githubusercontent.com/93729559/171880675-b7f52150-18ff-474e-a49d-25ec522e942c.png)
+
+![17g](https://user-images.githubusercontent.com/93729559/171880676-92a41754-0919-444b-9bcc-d644470992e6.png)
+
+![18](https://user-images.githubusercontent.com/93729559/171880681-f8cbc5b4-da96-41c2-8b38-0d0b2dc6c23b.png)
+
+![19](https://user-images.githubusercontent.com/93729559/171880682-d5c2f8c4-bece-463d-b710-c8bc37fe5b36.png)
+
+![20](https://user-images.githubusercontent.com/93729559/171880690-9e2b3ea5-2892-4f34-ba6e-09ec0a98b22d.png)
 
 
 
