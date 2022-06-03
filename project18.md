@@ -30,32 +30,19 @@ Let us configure it!
 
 
 
-- Create a file and name it backend.tf and add the code to it.
-
-
+- Create a file and name it backend.tf 
 
 
 - Next, we will create a DynamoDB table to handle locks and perform consistency checks. In previous projects, locks were handled with a local file as shown in terraform.tfstate.lock.info. Since we now have a team mindset, causing us to configure S3 as our backend to store state file, we will do the same to handle locking. Therefore, with a cloud storage database like DynamoDB, anyone running Terraform against the same infrastructure can use a central location to control a situation where Terraform is running at the same time from multiple different people.
 Dynamo DB resource for locking and consistency checking:
-
-pic
 
 
 Terraform expects that both S3 bucket and DynamoDB resources are already created before we configure the backend. So, let us run terraform apply to provision resources.
 
 - Configure S3 Backend
 
-pic
+![1](https://user-images.githubusercontent.com/93729559/171876353-a46e3ba8-b8ec-4fcc-8fbc-2b7528c4978d.png)
 
-- Now its time to re-initialize the backend. Run terraform init
-
-pic
-
-- Verify the changes
-- 
-Before doing anything if I opened AWS now to see what happened I will see the following:
-
-- tfstatefile is now inside the S3 bucket
 
 
 - DynamoDB table which we create has an entry which includes state file status
@@ -64,7 +51,19 @@ Before doing anything if I opened AWS now to see what happened I will see the fo
 I'll navigate to the DynamoDB table inside AWS and leave the page open in the browser, run terraform plan and while that is running, I'll refresh the browser and see how the lock is being handled:
 
 
-pics
+![2 (1)](https://user-images.githubusercontent.com/93729559/171876365-0c1326a0-b68b-4920-8b11-5ae36efa8b34.png)
+
+![2 (2)](https://user-images.githubusercontent.com/93729559/171876370-4aa977fe-b9aa-40ab-a1f1-46d0f4a24507.png)
+
+
+### Refactoring Terraform code
+
+**Now I'll break down the terraform codes to have all resources in their respective modules and combine resources of a similar type into directories within a ‘modules’ directory**
+
+
+
+
+
 
 
 
