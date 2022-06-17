@@ -33,6 +33,23 @@ Set two environment variables: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY. Thes
 ![2](https://user-images.githubusercontent.com/93729559/174335350-885172b0-cfe4-4e88-9a99-596546d8c3de.png)
 
 
+- Now we'll use Packer to build our images, and Ansible to configure the infrastructure.
+
+- Running packer build for AMI
+
+![3](https://user-images.githubusercontent.com/93729559/174338031-479c5ca5-6ee1-4c5f-bd98-529a7c160b0a.png)
+
+
+Now the AMI'S are created in AWS
+
+![4](https://user-images.githubusercontent.com/93729559/174338039-6e429ee6-af0f-49ed-8507-8b187d7fe227.png)
+
+
+- Update terraform script with new AMI ID's generated from the packer build
+
+![5](https://user-images.githubusercontent.com/93729559/174339743-f96cc1eb-e26b-4c15-86f1-c5a33e5686e2.png)
+
+
 
 
 
