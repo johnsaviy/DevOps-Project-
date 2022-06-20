@@ -50,6 +50,13 @@ Now the AMI'S are created in AWS
 ![5](https://user-images.githubusercontent.com/93729559/174339743-f96cc1eb-e26b-4c15-86f1-c5a33e5686e2.png)
 
 
+- Include the Ansible files
+
+![1](https://user-images.githubusercontent.com/93729559/174595414-b8ee85fa-29f9-43d2-9b0e-b8b65f347881.png)
+
+![2](https://user-images.githubusercontent.com/93729559/174595428-bff50bcc-4b3f-4927-8da8-24a9e9abcd8f.png)
+
+
 
 
 
