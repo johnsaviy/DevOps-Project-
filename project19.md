@@ -79,6 +79,17 @@ Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has b
 
 ![7](https://user-images.githubusercontent.com/93729559/174606475-271fd472-2eda-47b2-8147-0c7aa31592a6.png)
 
+![8](https://user-images.githubusercontent.com/93729559/174609147-f3535b79-7c91-499f-aa94-65aca34f842e.png)
+
+
+
+<br>
+
+- Update Ansible script with values from terraform output.
+    - RDS endpoints for wordpress and tooling
+    - Database password and username for wordpress and tooling
+    - Access point ID for wordpress and tooling
+    - Internal load balancer DNS for nginx reverse proxy
 
 
 
