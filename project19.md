@@ -61,6 +61,11 @@ Now the AMI'S are created in AWS
 
 Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has been successfull, you can proceed and confirm Apply – press "Confirm and apply", provide a comment and "Confirm plan"
 
+![3](https://user-images.githubusercontent.com/93729559/174603309-2b6f1994-da4f-403a-92d7-872667f436bd.png)
+
+![3a](https://user-images.githubusercontent.com/93729559/174603317-e3fecdcd-433b-4e59-8864-5c02b73d3fc0.png)
+
+![3b](https://user-images.githubusercontent.com/93729559/174603318-2a2d597f-45fb-40a1-8142-d73ba5934191.png)
 
 
 
