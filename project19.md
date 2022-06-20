@@ -102,7 +102,11 @@ Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has b
 ![11](https://user-images.githubusercontent.com/93729559/174626342-a85329be-1d4a-4cca-98df-d9b08df0d51d.png)
 
 
+<br>
 
+- After running ansible script we have our site up and running!
 
+![45](https://user-images.githubusercontent.com/93729559/170220588-14213325-ca3d-4294-8d1f-4424cd7e2b98.png)
 
+![44a](https://user-images.githubusercontent.com/93729559/170220581-f1746396-f289-4a65-afdf-cc3edf104b3f.png)
 
