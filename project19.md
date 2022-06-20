@@ -67,6 +67,19 @@ Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has b
 
 ![3b](https://user-images.githubusercontent.com/93729559/174603318-2a2d597f-45fb-40a1-8142-d73ba5934191.png)
 
+<br>
+
+- Confirming if the resources were created in AWS
+
+![4](https://user-images.githubusercontent.com/93729559/174606446-945c477d-b7e8-44e5-bd8c-00b4d226266f.png)
+
+![5](https://user-images.githubusercontent.com/93729559/174606461-76facc34-29fe-42ae-bd39-c746cc6c16b9.png)
+
+![6](https://user-images.githubusercontent.com/93729559/174606468-661c29c6-fc49-4e61-84c2-e2eb845e921a.png)
+
+![7](https://user-images.githubusercontent.com/93729559/174606475-271fd472-2eda-47b2-8147-0c7aa31592a6.png)
+
+
 
 
 
