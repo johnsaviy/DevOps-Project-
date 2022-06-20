@@ -92,9 +92,14 @@ Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has b
     - Database password and username for wordpress and tooling
     - Access point ID for wordpress and tooling
     - Internal load balancer DNS for nginx reverse proxy
+    - 
+<br>
 
+![9](https://user-images.githubusercontent.com/93729559/174626313-be23bbe3-8ae1-4784-8902-98865f8c2528.png)
 
+![10](https://user-images.githubusercontent.com/93729559/174626331-d2ce54c2-3000-4bb9-af89-8e465614ff75.png)
 
+![11](https://user-images.githubusercontent.com/93729559/174626342-a85329be-1d4a-4cca-98df-d9b08df0d51d.png)
 
 
 
