@@ -57,7 +57,9 @@ Now the AMI'S are created in AWS
 ![2](https://user-images.githubusercontent.com/93729559/174595428-bff50bcc-4b3f-4927-8da8-24a9e9abcd8f.png)
 
 
+- Run terraform plan and terraform apply from web console.
 
+Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has been successfull, you can proceed and confirm Apply – press "Confirm and apply", provide a comment and "Confirm plan"
 
 
 
