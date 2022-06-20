@@ -81,6 +81,8 @@ Switch to "Runs" tab and click on "Queue plan manualy" button. If planning has b
 
 ![8](https://user-images.githubusercontent.com/93729559/174609147-f3535b79-7c91-499f-aa94-65aca34f842e.png)
 
+![11](https://user-images.githubusercontent.com/93729559/174619327-09d0e35f-eae5-4c47-b5ea-15a984a76f22.png)
+
 
 
 <br>
