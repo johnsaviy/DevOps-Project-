@@ -93,8 +93,30 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 ![9](https://user-images.githubusercontent.com/93729559/176244187-94af7542-a26d-4ab6-adfe-e66eb781b874.png)
 
 
+![10](https://user-images.githubusercontent.com/93729559/176245116-ad459484-c5cb-4c98-81f0-4b12b17a8431.png)
+
+![11](https://user-images.githubusercontent.com/93729559/176245138-1fa57815-009b-4230-9865-11b6b9f75bf4.png)
+
+![12](https://user-images.githubusercontent.com/93729559/176245157-ca704898-bcca-4960-b1eb-d5678d0df18c.png)
+
+![15](https://user-images.githubusercontent.com/93729559/176246731-3c61a859-a5e0-48df-a5d6-1083bc544d73.png)
 
 
+
+<br>
+
+#### Create a network Load balancer
+
+![13](https://user-images.githubusercontent.com/93729559/176245848-e6cc2cff-4ff2-4cc0-9ddc-c1057079c11d.png)
+
+
+#### Create a target group:
+
+![14](https://user-images.githubusercontent.com/93729559/176245889-dd4eff2e-5893-463c-ad6c-3ac4530442be.png)
+
+
+
+#### Register targets:
 
 
 
