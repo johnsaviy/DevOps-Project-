@@ -19,3 +19,24 @@
 - Configured Pod Network
 
 
+
+#### STEP 0-INSTALL CLIENT TOOLS BEFORE BOOTSTRAPPING THE CLUSTER
+
+#### Install kubectl
+ 
+Kubernetes cluster has a Web API that can receive HTTP/HTTPS requests, but it is quite cumbersome to curl an API each and every time you need to send some command, so kubectl command tool was developed to ease a K8s administrator’s life.
+
+With this tool you can easily interact with Kubernetes to deploy applications, inspect and manage cluster resources, view logs and perform many more administrative operations.
+
+![1](https://user-images.githubusercontent.com/93729559/176220018-775a0c86-29cc-45bf-87bf-d29c701832c9.png)
+
+
+
+#### Install CFSSL and CFSSLJSON
+
+cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastructure (PKI Infrastructure) for generating, signing and bundling TLS certificates. In previous projects you have experienced the use of Letsencrypt for the similar use case. Here, cfssl will be configured as a Certificate Authority which will issue the certificates required to spin up a Kubernetes cluster.
+
+
+![2](https://user-images.githubusercontent.com/93729559/176220026-16fd0445-429e-4112-be22-c7b2bb6571a3.png)
+
+
