@@ -74,6 +74,32 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 
 
 
+#### Create the Subnet
+
+![6](https://user-images.githubusercontent.com/93729559/176242982-b33249d2-d496-46c7-a913-f7f4d1205fe0.png)
+
+
+#### Create the Internet Gateway and attach it to the VPC:
+
+![7](https://user-images.githubusercontent.com/93729559/176243061-e7354d17-c6f7-48d0-a432-29063f08714c.png)
+
+#### Create route tables, associate the route table to subnet, and create a route to allow external traffic to the Internet through the Internet Gateway:
+
+![8](https://user-images.githubusercontent.com/93729559/176243637-0e6b2175-f5d7-4069-a0fa-2fe54f8150f3.png)
+
+
+#### Configure security groups
+
+
+
+
+
+
+
+
+
+
+
 
 
 
