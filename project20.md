@@ -46,4 +46,31 @@ First, we need to install Docker Engine, which is a client-server application th
 
 
 
+#### Run the Tooling App
+
+- firstly we will run docker build to build our application
+
+- Ensure you are inside the directory "tooling" that has the file Dockerfile and build your container  using the command:
+
+ $ docker build -t tooling:0.0.1 . 
+ 
+In the above command, we specify a parameter -t, so that the image can be tagged tooling"0.0.1 - Also, you have to notice the . at the end. This is important as that tells Docker to locate the Dockerfile in the current directory you are running the command.
+
+
+![7](https://user-images.githubusercontent.com/93729559/176190776-3171687f-35f5-4604-ac22-723bf55bb3b9.png)
+
+
+Now from the output above, the docker file has been successfully built!
+
+- Next we will Run the container and open our application
+
+
+![7b](https://user-images.githubusercontent.com/93729559/176191440-23b7d24f-275f-4387-a4f7-f1b300094b26.png)
+
+![8](https://user-images.githubusercontent.com/93729559/176191451-39338890-28ae-449b-bfe6-d8b1449023de.png)
+
+
+
+
+
 
