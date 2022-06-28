@@ -60,8 +60,17 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 
 ![4](https://user-images.githubusercontent.com/93729559/176235368-e0eaf243-0a63-4378-b4f3-ad4434698723.png)
 
+<br>
 
+#### Dynamic Host Configuration Protocol – DHCP
 
+- Configure DHCP Options Set:
+
+![5](https://user-images.githubusercontent.com/93729559/176240559-8844b3b0-cae3-4f51-95f8-4e883d577aa2.png)
+
+![5b](https://user-images.githubusercontent.com/93729559/176240881-ada57cbc-8a63-4f6d-b3df-ffe6b6b05358.png)
+
+![5b](https://user-images.githubusercontent.com/93729559/176241745-b07475db-fb0d-4a23-a71d-9012e7c2cc8f.png)
 
 
 
