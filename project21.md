@@ -90,6 +90,8 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 
 #### Configure security groups
 
+![9](https://user-images.githubusercontent.com/93729559/176244187-94af7542-a26d-4ab6-adfe-e66eb781b874.png)
+
 
 
 
