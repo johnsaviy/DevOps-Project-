@@ -14,5 +14,13 @@ First, we need to install Docker Engine, which is a client-server application th
 
 - Start by pulling the appropriate Docker image for MySQL
 
-![1](https://user-images.githubusercontent.com/93729559/176187939-6c4f83ea-7081-4733-9a91-480b59a15770.png)
+![1](https://user-images.githubusercontent.com/93729559/176187939-6c4f83ea-7081-4733-9a91-480b59a15770.png
+
+
+#### Step 2: Deploy the MySQL Container to your Docker Engine
+
+- Once you have the image, move on to deploying a new MySQL container
+
+![3](https://user-images.githubusercontent.com/93729559/176188699-5ae08aae-5338-4a19-8545-9ee26249ab8f.png)
+
 
