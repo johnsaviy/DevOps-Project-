@@ -40,3 +40,29 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 ![2](https://user-images.githubusercontent.com/93729559/176220026-16fd0445-429e-4112-be22-c7b2bb6571a3.png)
 
 
+#### AWS CLOUD RESOURCES FOR KUBERNETES CLUSTER
+
+#### Step 1 – Configure Network Infrastructure- Virtual Private Cloud – VPC
+
+- Create a directory named k8s-cluster-from-ground-up
+
+- Create a VPC and store the ID as a variable:
+
+- Tag the VPC so that it is named: k8s-cluster-from-ground-up
+
+- Enable DNS support for your VPC
+
+- Enable DNS support for hostnames
+
+
+
+
+
+
+
+
+
+
+
+
+
