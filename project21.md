@@ -109,17 +109,31 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 
 ![13](https://user-images.githubusercontent.com/93729559/176245848-e6cc2cff-4ff2-4cc0-9ddc-c1057079c11d.png)
 
+![16](https://user-images.githubusercontent.com/93729559/176247864-1fc0871e-9ee8-4be9-9664-6203be379653.png)
+
+
+
 
 #### Create a target group:
 
 ![14](https://user-images.githubusercontent.com/93729559/176245889-dd4eff2e-5893-463c-ad6c-3ac4530442be.png)
 
+![17](https://user-images.githubusercontent.com/93729559/176247880-e8daa2bc-b3d1-4ab5-aacc-2a4fd77235c0.png)
+
 
 
 #### Register targets:
 
+![18](https://user-images.githubusercontent.com/93729559/176248398-189dd774-cf43-48eb-90bb-33eea21097b7.png)
 
 
+#### Create a listener to listen for requests and forward to the target nodes on TCP port 6443
+
+
+![19](https://user-images.githubusercontent.com/93729559/176248672-f3a5dbb9-faf3-4672-b5be-9281c3fdb2a4.png)
+
+
+#### Get the Kubernetes Public address
 
 
 
